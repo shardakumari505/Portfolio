@@ -1,0 +1,125 @@
+@media(min-width:240px) and (max-width:480px){
+
+}
+
+@media(min-width:481px) and (max-width:868px){
+    .homepage{
+        width: 100%;
+        height: 100vh;
+        background-color: #2C1F2F;
+    }
+    .profilepic{
+        width: 30vw;
+        height: 30vh;
+        background-color: azure;
+        position: absolute;
+        top: 30vh;
+        left: 10vw;
+    }
+}
+
+@media(min-width:869px) and (max-width:1023px){
+    .homepage{
+        width: 100%;
+        height: 100vh;
+        background-color: #17191a;
+    }
+}
+
+@media(min-width:1024px){
+.homepage{
+    width: 100%;
+    height: 100vh;
+    background-color: #1A1A1A;
+}
+.profilepic{
+    width: 60vh;
+    height: 60vh;
+    border-radius: 30vh;
+    /* background-color: aliceblue; */
+    position: absolute;
+    top: 25vh;
+    left: 10vw;
+    background-image: url("bg.jpg");
+}
+
+.profilepicimg{
+    height: 60vh;
+    width: 60vh;
+    border-radius: 30vh;
+    object-fit: contain;
+    
+}
+.profileright{
+    position: absolute;
+    top: 40vh;
+    width: 40vw;
+    right: 5vw;
+}
+.profileright h1{
+    color: #999999;
+}
+.profileright h2{
+    color: #999999;
+}
+.profileright h3{
+    color: #FFB2B2;
+}
+.hirebutton{
+    background-image: linear-gradient(to right,#241661,#8C5B91);
+    height: 5vh;
+    width: 8vw;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.contactmeattext{
+    height: 20vh;
+    width: 60vw;
+    position: absolute;
+    color: aliceblue;
+    left: 10vw;
+}
+.contactmeat{
+    position: fixed;
+    display: grid;
+    grid-gap: 2vh;
+    bottom: 8vh;
+    right: 2vw;
+    /* background-color: aliceblue; */
+}
+.gmaillogo{
+    height: 4vh;
+    width: 5vh;
+    margin-left:0.5vh;
+}
+.linkedinlogo{
+    height: 6vh;
+    width: 6vh;
+    background-color: transparent;
+}
+.gitlogo{
+    height: 6vh;
+    width: 6vh;
+}
+.twitterlogo{
+    height: 6vh;
+    width: 6vh;
+}
+.footer{
+    position: fixed;
+    z-index: 999;
+    bottom: 0px;
+    height: 6vh;
+    width: 100%;
+    background-color: #131313;
+}
+.ftimg{
+    background-color: transparent;
+    height: 3vh;
+    width: 1.5vw;
+    position: absolute;
+    top: 1.5vh;
+    left: 49.5vw;
+}
+}

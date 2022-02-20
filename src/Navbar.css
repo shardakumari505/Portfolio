@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Poppins:wght@600;700&family=Roboto&display=swap');
+
+@media(min-width:240px) and (max-width:480px){
+
+}
+
+@media(min-width:481px) and (max-width:868px){
+    .navbarforall{
+        width: 90vw;
+        height: 5vh;
+        color: aliceblue;
+        position: absolute;
+        top: 5vh;
+        left: 5vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbarmenu{
+        width: 60vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    
+}
+
+@media(min-width:869px) and (max-width:1023px){
+    .navbarforall{
+        width: 100%;
+        height: 100vh;
+        background-color: #17191a;
+    }
+}
+
+@media(min-width:1024px){
+    .navbarforall{
+        width: 90vw;
+        height: 5vh;
+        color: aliceblue;
+        position: absolute;
+        top: 5vh;
+        left: 5vw;
+        display: flex;
+        justify-content: space-between;
+        font-family: Poppins;
+        font-size: 1.1rem;
+    }
+    .navbarmenu{
+        width: 40vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+}
