@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Skills from './Skills';
+import Experience from './Experience';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Skills />
+    <Experience />
   </React.StrictMode>,
   document.getElementById('root')
 );

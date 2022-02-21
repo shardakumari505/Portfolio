@@ -6,7 +6,7 @@ import Skills from './Skills';
 const Navbar = () =>
 {
     return(<div className='navbarforall'>
-        <div className='namelogo'>sharda.kumari</div>
+        <div className='namelogo'>Sharda Kumari</div>
         <div className='navbarmenu'>
             <div className='navbarmenuabout' href={<Skills />}>About</div>
             <div className='navbarmenuexperience'>Experience</div>
