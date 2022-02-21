@@ -35,12 +35,12 @@
 
 @media(min-width:1024px){
     .navbarforall{
-        width: 90vw;
+        width: 85vw;
         height: 5vh;
         color: aliceblue;
         position: absolute;
         top: 5vh;
-        left: 5vw;
+        left: 10vw;
         display: flex;
         justify-content: space-between;
         font-family: Poppins;

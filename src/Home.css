@@ -40,7 +40,7 @@
     position: absolute;
     top: 25vh;
     left: 10vw;
-    background-image: url("bg.jpg");
+    /* background-image: url("bg.jpg"); */
 }
 
 .profilepicimg{
@@ -57,17 +57,21 @@
     right: 5vw;
 }
 .profileright h1{
-    color: #999999;
+    color: aliceblue;
+    font-size: 2rem;
 }
 .profileright h2{
     color: #999999;
+    font-size: 1.6rem;
 }
 .profileright h3{
-    color: #FFB2B2;
+    color: green;
+    font-size: 1.5rem;
 }
 .hirebutton{
-    background-image: linear-gradient(to right,#241661,#8C5B91);
+    /* background-image: linear-gradient(to right,#1877f2,#1877f2); */
     height: 5vh;
+    background-color: aliceblue;
     width: 8vw;
     border-radius: 50px;
     font-size: 1.1rem;
