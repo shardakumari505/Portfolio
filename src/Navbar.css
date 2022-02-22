@@ -5,7 +5,7 @@
 }
 
 @media(min-width:481px) and (max-width:868px){
-    .navbarforall{
+    .navbarpg{
         width: 90vw;
         height: 5vh;
         color: aliceblue;
@@ -34,11 +34,19 @@
 }
 
 @media(min-width:1024px){
+    .navbarpg{
+        width: 100%;
+        background-color: #202020;
+        /* background-image: url(peakpx3.jpg); */
+        position: fixed;
+        z-index: 999;
+        height: 12vh;
+    }
     .navbarforall{
         width: 85vw;
         height: 5vh;
         color: aliceblue;
-        position: absolute;
+        position: fixed;
         top: 5vh;
         left: 10vw;
         display: flex;

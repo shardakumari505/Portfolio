@@ -69,9 +69,9 @@
     font-size: 1.5rem;
 }
 .hirebutton{
-    /* background-image: linear-gradient(to right,#1877f2,#1877f2); */
+    background-image: linear-gradient(to right,#bb86fc 0%,#940eb5 74%);
     height: 5vh;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     width: 8vw;
     border-radius: 50px;
     font-size: 1.1rem;
@@ -102,28 +102,44 @@
     border-radius: 3vh;
     /* background-color: gray; */
     margin-left:0.5vh;
+    transition: all 0.5s;
     box-shadow: 3px 3px 3px 3px#101010;
+}
+.gmaillogo:hover{
+    transform: scale(1.2);
 }
 .linkedinlogo{
     height: 6vh;
     width: 6vh;
     border-radius: 3vh;
     background-color: transparent;
+    transition: all 0.5s;
     box-shadow: 3px 3px 3px 3px#101010;
+}
+.linkedinlogo:hover{
+    transform: scale(1.2);
 }
 .gitlogo{
     height: 6vh;
     width: 6vh;
     border-radius: 3vh;
     background-color: transparent;
+    transition: all 0.5s;
     box-shadow: 3px 3px 3px 3px#101010;
+}
+.gitlogo:hover{
+    transform: scale(1.2);
 }
 .twitterlogo{
     height: 6vh;
     width: 6vh;
     border-radius: 3vh;
     background-color: transparent;
+    transition: all 0.5s;
     box-shadow: 3px 3px 3px 3px#101010;
+}
+.twitterlogo:hover{
+    transform: scale(1.2);
 }
 .footer{
     position: fixed;

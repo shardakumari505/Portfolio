@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Skills from './Skills';
 import Experience from './Experience';
+import Projects from './Projects';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -11,7 +12,10 @@ ReactDOM.render(
     <App />
     <Skills />
     <Experience />
-  </React.StrictMode>,
+    <Projects />
+  </React.StrictMode>
+    
+  ,
   document.getElementById('root')
 );
 
