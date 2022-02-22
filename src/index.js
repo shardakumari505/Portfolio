@@ -5,6 +5,7 @@ import App from './App';
 import Skills from './Skills';
 import Experience from './Experience';
 import Projects from './Projects';
+import Contact from './Contact';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Skills />
     <Experience />
     <Projects />
+    <Contact />
   </React.StrictMode>
     
   ,
