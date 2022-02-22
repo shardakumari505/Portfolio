@@ -24,7 +24,7 @@ useEffect( () =>{
 
     return(<div className='homepage'>
         <Navbar />
-        <div className=''>
+        <div className='profiletop'>
             <div className='profilepic'><img className='profilepicimg' src={Me} alt='profile' /></div>
             <div className='profileright'>
                 <div className='wrapper'>
@@ -37,6 +37,7 @@ useEffect( () =>{
                 </div>
             </div>
         </div>
+        <div className='aboutmesection'></div>
         <div className='contactmeat'>
                 <div className='logo'><img className='gmaillogo' src={Gmail} alt="loading..." /></div>
                 <div className='logo'><img className='linkedinlogo' src={Linkedin} alt="loading..." /></div>

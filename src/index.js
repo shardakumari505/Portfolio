@@ -11,9 +11,9 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Projects />
     <Skills />
     <Experience />
-    <Projects />
     <Contact />
   </React.StrictMode>
     
