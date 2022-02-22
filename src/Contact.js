@@ -9,8 +9,8 @@ export default function contact(){
     return(<div className='contactdifffiv'>
         <div className='extracurricularpg'>
             <div className='contacttitle'>CONTACT</div>
-            <div className='contacttxt'>Up for a Tech talk or would like to contribute together ? Awesome!</div>
-            <div className='contactbtndiv'><button className='contactbutton'>Let's Chat</button></div>
+            <div className='contacttxt'>Up for a Tech talk or would like to contribute together ? Fabulous!</div>
+            <div className='contactbtndiv'><button className='contactbutton'>Connect</button></div>
         </div>
         <div className='lastdiv'>
             <div className='contactmeatft'>

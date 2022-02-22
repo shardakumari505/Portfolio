@@ -51,6 +51,7 @@
     width: 60vh;
     border-radius: 30vh;
     object-fit: contain;
+    box-shadow: 10px 10px 10px 10px gray;
     
 }
 .profileright{
@@ -165,5 +166,24 @@
     position: absolute;
     top: 1.5vh;
     left: 49.5vw;
+}
+.aboutmetitle{
+    width: auto;
+    /* background-color: #940eb5; */
+    font-size: 2rem;
+    color: #E1AD01;
+    position: absolute;
+    margin-top: 5vh;
+    text-decoration: underline 2px;
+    margin-left: 45vw;
+}
+.aboutmetext{
+    color: #FFFFFF;
+    font-size: 1rem;
+    position: absolute;
+    width: 80vw;
+    left: 10vw;
+    margin-top: 15vh;
+    text-align: justify;
 }
 }
