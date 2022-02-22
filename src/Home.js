@@ -38,10 +38,10 @@ useEffect( () =>{
             </div>
         </div>
         <div className='contactmeat'>
-                <div className=''><img className='gmaillogo' src={Gmail} alt="loading..." /></div>
-                <div className=''><img className='linkedinlogo' src={Linkedin} alt="loading..." /></div>
-                <div className=''><img className='gitlogo' src={Github} alt="loading..." /></div>
-                <div className=''><img className='twitterlogo' src={Twitter} alt="loading..." /></div>
+                <div className='logo'><img className='gmaillogo' src={Gmail} alt="loading..." /></div>
+                <div className='logo'><img className='linkedinlogo' src={Linkedin} alt="loading..." /></div>
+                <div className='logo'><img className='gitlogo' src={Github} alt="loading..." /></div>
+                <div className='logo'><img className='twitterlogo' src={Twitter} alt="loading..." /></div>
         </div>
         <div className='footer'><img className='ftimg' src={Ft} alt='c' /></div>
         

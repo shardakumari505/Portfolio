@@ -1,7 +1,126 @@
 @media(min-width:1024px){
     .experiencepg{
         width: 100%;
-        height: 100vh;
+        height: 300vh;
         background-color: #1A1A1A;
+    }
+    .exptitle{
+        font-size: 2rem;
+        margin-left: 40vw;
+        color: aliceblue;
+    }
+    .exp1{
+        display: flex;
+        position: absolute;
+        left: 10vw;
+        margin-top: 8vh;
+        transition: all 1s;
+    }
+    .exp1:hover{
+        transform: scale(1.1);
+    }
+    .exp1img{
+        height: 30vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .hhimg{
+        height: 30vh;
+        width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .exp1desc{
+        height: 30vh;
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .voltitle{
+        font-size: 2rem;
+        margin-left: 45vw;
+        margin-top: 70vh;
+        color: aliceblue;
+    }
+    .vol1{
+        display: flex;
+        position: absolute;
+        left: 10vw;
+        margin-top: 8vh;
+        transition: all 1s;
+    }
+    .vol1:hover{
+        transform: scale(1.1);
+    }
+    .vol1img{
+        height: 30vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .hhimg{
+        height: 30vh;
+        width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol1desc{
+        height: 30vh;
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .vol2{
+        display: flex;
+        position: absolute;
+        left: 10vw;
+        margin-top: 50vh;
+        transition: all 1s;
+    }
+    .vol2:hover{
+        transform: scale(1.1);
+    }
+    .vol2img{
+        height: 30vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .hhimg{
+        height: 30vh;
+        width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol2desc{
+        height: 30vh;
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .parttitle{
+        font-size: 2rem;
+        margin-left: 45vw;
+        margin-top: 110vh;
+        color: aliceblue;
+    }
+    .participationcrd{
+        display: flex;
+        position: absolute;
+        left: 20vw;
+        margin-top: 10vh;
+        height: 60vh;
+        width: 60vw;
+        transition: all 1s;
+        background-color: #272727;
+        border-radius: 20px;
+        /* box-shadow: 3px 3px 0px 3px black; */
     }
 }

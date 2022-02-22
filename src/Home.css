@@ -92,23 +92,38 @@
     right: 2vw;
     /* background-color: aliceblue; */
 }
+/* .logo{
+    height: 6vh;
+    width: 6vh;
+} */
 .gmaillogo{
-    height: 4vh;
-    width: 5vh;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 3vh;
+    /* background-color: gray; */
     margin-left:0.5vh;
+    box-shadow: 3px 3px 3px 3px#101010;
 }
 .linkedinlogo{
     height: 6vh;
     width: 6vh;
+    border-radius: 3vh;
     background-color: transparent;
+    box-shadow: 3px 3px 3px 3px#101010;
 }
 .gitlogo{
     height: 6vh;
     width: 6vh;
+    border-radius: 3vh;
+    background-color: transparent;
+    box-shadow: 3px 3px 3px 3px#101010;
 }
 .twitterlogo{
     height: 6vh;
     width: 6vh;
+    border-radius: 3vh;
+    background-color: transparent;
+    box-shadow: 3px 3px 3px 3px#101010;
 }
 .footer{
     position: fixed;
