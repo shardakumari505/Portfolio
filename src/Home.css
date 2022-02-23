@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300;1,400;1,500&display=swap');
 @media(min-width:240px) and (max-width:480px){
 
 }
@@ -82,10 +83,27 @@
     font-weight: 700;
 }
 .aboutmesection{
+    /* background-image: linear-gradient(135deg,#333,#333);
+    -webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+    clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+    padding: 15rem 0 10rem;
+    margin-top: -15rem;
     height: 90vh;
     width: 100%;
+    background-color: #333; */
     background-color: #333;
+    background-image: linear-gradient(135deg,#333,#333);
+    color: #fff;
+    height: 50%;
+    border-top: 0;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+    /* padding-bottom: 10%; */
+    font-family: Cormorant;
+    font-weight: 400;
+    font-size: 4rem;
 }
+
 .contactmeattext{
     height: 20vh;
     width: 60vw;
