@@ -39,9 +39,8 @@ useEffect( () =>{
         </div>
         <div className='aboutmesection'>
             <div className='aboutmetitle'>About</div>
-            <div className='aboutmetext'>I am a crazy Technology Enthusiast, passionate about AI and Machine Learning, and possess the zeal to explore Full stack development. I am currently pursuing my Bachelor of Technology in Electronics and Communication Engineering from NIT Mizoram. I am also working on many projects in web development(using Javascript/ReactJS/NodeJS and some other libraries and frameworks) and Machine Learning using Python(A good grasp of Analysis) and looking forward to learn and work on many more cool technologies.
-I love to portray the world in a frame with my painting skills and sometimes escape to the world of books. Can’t restrain me from capturing the eyeful even though lacks photography skills.
-</div>
+            <div className='aboutmetext'>I am a crazy Technology Enthusiast, passionate about AI and Machine Learning, and possess the zeal to explore Full stack development. I am currently pursuing my Bachelor of Technology in Electronics and Communication Engineering from NIT Mizoram. I am also working on many projects in web development(using Javascript/ReactJS/NodeJS and some other libraries and frameworks) and Machine Learning using Python (A good grasp of Analysis) and looking forward to learn and work on many more cool technologies.<br></br><br></br>I love to portray the world in a frame with my painting skills and sometimes escape to the world of books. Can’t restrain me from capturing the eyeful even though lacks photography skills.
+            </div>
         </div>
         <div className='contactmeat'>
                 <div className='logo'><img className='gmaillogo' src={Gmail} alt="loading..." /></div>

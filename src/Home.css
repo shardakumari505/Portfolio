@@ -99,11 +99,34 @@
     -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
     clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
     /* padding-bottom: 10%; */
-    font-family: Cormorant;
-    font-weight: 400;
-    font-size: 4rem;
+    /* font-family: Cormorant;
+    font-weight: 400; */
+    /* font-size: 8rem; */
 }
-
+@font-face {
+    font-family: Better Grade;
+    src: url(BetterGrade-519DV.ttf)
+}
+.aboutmetitle{
+    width: auto;
+    /* background-color: #940eb5; */
+    font-size: 2.5rem;
+    color: #E1AD01;
+    position: absolute;
+    margin-top: 8vh;
+    text-decoration: underline 2px;
+    margin-left: 45vw;
+}
+.aboutmetext{
+    color: #FFFFFF;
+    font-family: Cormorant;
+    font-size: 2rem;
+    position: absolute;
+    width: 80vw;
+    left: 10vw;
+    margin-top: 20vh;
+    text-align: justify;
+}
 .contactmeattext{
     height: 20vh;
     width: 60vw;
@@ -185,23 +208,5 @@
     top: 1.5vh;
     left: 49.5vw;
 }
-.aboutmetitle{
-    width: auto;
-    /* background-color: #940eb5; */
-    font-size: 2rem;
-    color: #E1AD01;
-    position: absolute;
-    margin-top: 5vh;
-    text-decoration: underline 2px;
-    margin-left: 45vw;
-}
-.aboutmetext{
-    color: #FFFFFF;
-    font-size: 1rem;
-    position: absolute;
-    width: 80vw;
-    left: 10vw;
-    margin-top: 15vh;
-    text-align: justify;
-}
+
 }

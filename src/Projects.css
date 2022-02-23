@@ -14,7 +14,7 @@
     left: 10vw;
     margin-top: 10vh;
 }
-.crd{
+.crd1{
     height: 50vh;
     width: 24vw;
     /* border-radius: 10px; */
@@ -22,8 +22,69 @@
     background-color: gray;
     /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
 }
-.crd:hover{
+.crd1:hover{
     background-color: #2b1331;
-background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
+    background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
     box-shadow: 4px 8px 9px 5px #808080;
+}
+.crd2{
+    height: 50vh;
+    width: 24vw;
+    /* border-radius: 10px; */
+    margin-right: 5vw;
+    background-color: gray;
+    /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
+}
+.crd2:hover{
+    background-color: #2b1331;
+    background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
+    box-shadow: 4px 8px 9px 5px #808080;
+}
+.crd3{
+    height: 50vh;
+    width: 24vw;
+    /* border-radius: 10px; */
+    margin-right: 5vw;
+    background-color: gray;
+    /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
+}
+.crd3:hover{
+    background-color: #2b1331;
+    background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
+    box-shadow: 4px 8px 9px 5px #808080;
+}
+.caseiraimg{
+    position: absolute;
+    left: 2vw;
+    top: 4vh;
+    height: 10vh;
+    width: 5vw;
+    border-radius: 15px;
+}
+.tool{
+    position: absolute;
+    left: 2vw;
+    top: 16vh;
+    color: #1A1A1A;
+}
+.nameproject1{
+    position: absolute;
+    left: 2vw;
+    top: 22vh;
+    color: aliceblue;
+}
+.project1txt{
+    position: absolute;
+    width: 20vw;
+    left: 2vw;
+    top: 28vh;
+    text-align: justify;
+    color: aliceblue;
+}
+.icon{
+    position: absolute;
+    height: 8vh;
+    width: 4vw;
+    top: 42vh;
+    left: 2vw;
 }

@@ -6,7 +6,7 @@
     }
     .exptitle{
         font-size: 2rem;
-        margin-left: 40vw;
+        margin-left: 45vw;
         color: aliceblue;
     }
     .exp1{
@@ -20,34 +20,56 @@
         transform: scale(1.1);
     }
     .exp1img{
-        height: 30vh;
+        height: 35vh;
         width: 15vw;
         border-radius: 30px;
     }
     .hhimg{
-        height: 30vh;
+        height: 35vh;
         width: 15vw;
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
         box-shadow: 3px 3px 3px 3px black;
     }
     .exp1desc{
-        height: 30vh;
+        height: 35vh;
         width: 60vw;
         background-color: #272727;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
         box-shadow: 3px 3px 0px 3px black;
     }
+    .exp1role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 2.2rem;
+    }
+    .exp1company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1.2rem;
+    }
+    .exp1date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .exp1exp{
+        width: 90%;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 1.1rem;
+    }
     .voltitle{
         font-size: 2rem;
-        margin-left: 40vw;
+        margin-left: 45vw;
         margin-top: 60vh;
         color: aliceblue;
     }
     .vol1{
         display: flex;
         position: absolute;
+        height: 35vh;
         left: 10vw;
         margin-top: 8vh;
         transition: all 1s;
@@ -56,24 +78,45 @@
         transform: scale(1.1);
     }
     .vol1img{
-        height: 30vh;
+        height: 35vh;
         width: 15vw;
         border-radius: 30px;
     }
     .hhimg{
-        height: 30vh;
+        height: 35vh;
         width: 15vw;
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
         box-shadow: 3px 3px 3px 3px black;
     }
     .vol1desc{
-        height: 30vh;
+        height: 35vh;
         width: 60vw;
         background-color: #272727;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
         box-shadow: 3px 3px 0px 3px black;
+    }
+    .vol1role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 2.2rem;
+    }
+    .vol1company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1.2rem;
+    }
+    .vol1date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .vol1exp{
+        width: 90%;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 1.1rem;
     }
     .vol2{
         display: flex;
@@ -91,19 +134,40 @@
         border-radius: 30px;
     }
     .hhimg{
-        height: 30vh;
+        height: 35vh;
         width: 15vw;
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
         box-shadow: 3px 3px 3px 3px black;
     }
     .vol2desc{
-        height: 30vh;
+        height: 35vh;
         width: 60vw;
         background-color: #272727;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
         box-shadow: 3px 3px 0px 3px black;
+    }
+    .vol2role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 2.2rem;
+    }
+    .vol2company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1.2rem;
+    }
+    .vol2date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .vol2exp{
+        width: 90%;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 1.1rem;
     }
     .vol3{
         display: flex;
@@ -116,24 +180,38 @@
         transform: scale(1.1);
     }
     .vol3img{
-        height: 30vh;
+        height: 35vh;
         width: 15vw;
         border-radius: 30px;
     }
     .hhimg{
-        height: 30vh;
+        height: 35vh;
         width: 15vw;
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
         box-shadow: 3px 3px 3px 3px black;
     }
     .vol3desc{
-        height: 30vh;
+        height: 35vh;
         width: 60vw;
         background-color: #272727;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
         box-shadow: 3px 3px 0px 3px black;
+    }
+    .vol3role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 2.2rem;
+        margin-top: 2vh;
+    }
+    .vol3exp{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 5vh;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 1.5rem;
     }
     .parttitle{
         font-size: 2rem;
