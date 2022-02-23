@@ -4,13 +4,22 @@ import Hh from './hh.jpg';
 import Is from './is.jfif';
 import Shaastra from './shaastra.jpg';
 import Moodi from './moodi.jpg';
+import Microsoft from './Microsoft.png';
+import Technosys from './Technosys.png';
+import Quintessential from './Quintessential.png';
+import Tantrafiesta from './Tantrafiesta.png';
+import Ideeavolt from './Ideeavolt.png';
+import Upflairs from './Upflairs.png';
+import Jigserate from './Jigserate.png';
+import Chimera from './chimera.png';
+import Aws from './aws.png';
 
 export default function Experience(){
 
     return(<div className='experiencepg'>
         <div className='exptitle'>Work Experience</div>
         <div className='exp1'>
-            <div className='exp1img'><img className='hhimg' src={Hh} alt="Henry Harvin" /></div>
+            <div className='exp1img'><img className='hh1img' src={Hh} alt="Henry Harvin" /></div>
             <div className='exp1desc'>
                 <div className='exp1role'>Analytics Intern</div>
                 <div className='exp1company'>Henry Harvin Education</div>
@@ -23,7 +32,7 @@ export default function Experience(){
         </div>
         <div className='voltitle'>Extra-Curricular</div>
         <div className='vol1'>
-            <div className='vol1img'><img className='hhimg' src={Shaastra} alt="Henry Harvin" /></div>
+            <div className='vol1img'><img className='vol1imgpic' src={Shaastra} alt="Henry Harvin" /></div>
             <div className='vol1desc'>
                 <div className='vol1role'>Campus Ambassador</div>
                 <div className='vol1company'>Shaastra 2022 , IIT Madras</div>
@@ -40,7 +49,7 @@ export default function Experience(){
             </div>
         </div>
         <div className='vol2'>
-            <div className='vol2img'><img className='hhimg' src={Is} alt="Henry Harvin" /></div>
+            <div className='vol2img'><img className='vol2imgpic' src={Is} alt="Henry Harvin" /></div>
             <div className='vol2desc'>
                 <div className='vol2role'>Internshala Student Partner</div>
                 <div className='vol2company'>Internshala</div>
@@ -51,7 +60,7 @@ export default function Experience(){
             </div>
         </div>
         <div className='vol3'>
-            <div className='vol3img'><img className='hhimg' src={Moodi} alt="Henry Harvin" /></div>
+            <div className='vol3img'><img className='vol3imgpic' src={Moodi} alt="Henry Harvin" /></div>
             <div className='vol3desc'>
                 <div className='vol3role'>Mood Indigo</div>
                 <div className='vol3exp'>Second Runner Up in Mixed Medium Art , Indoor Indigo conducted in 2021 by IIT Bombay.</div>
@@ -59,7 +68,15 @@ export default function Experience(){
         </div>
         <div className='parttitle'>Participation</div>
         <div className='participationcrd'>
-            
+            <div className=''><img className='microsoft' src={Microsoft} alt="Microsoft AI classroom series"/></div>
+            <div className=''><img className="technosys" src={Technosys} alt="Technosys" /></div>
+            <div className=''><img className="tantrafiesta" src={Tantrafiesta} alt="Code-Fiesta" /></div>
+            <div className=''><img className="ideeavolt" src={Ideeavolt} alt="Code-Fiesta" /></div>
+            <div className=''><img className="aws" src={Aws} alt="Code-Fiesta" /></div>
+            <div className=''><img className="quintessential" src={Quintessential} alt="Quintessential" /></div>
+            <div className=''><img className="upflairs" src={Upflairs} alt="Code-Fiesta" /></div>
+            <div className=''><img className="jigserate" src={Jigserate} alt="Code-Fiesta" /></div>
+            <div className=''><img className="chimera" src={Chimera} alt="Code-Fiesta" /></div>
         </div>
 
 

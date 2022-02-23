@@ -52,7 +52,7 @@
     width: 60vh;
     border-radius: 30vh;
     object-fit: contain;
-    box-shadow: 10px 10px 10px 10px gray;
+    box-shadow: 10px 10px 10px 10px #3E3B39;
     
 }
 .profileright{
@@ -70,17 +70,20 @@
     font-size: 1.6rem;
 }
 .profileright h3{
-    color: green;
+    color: #32CD32;
     font-size: 1.5rem;
 }
 .hirebutton{
-    background-image: linear-gradient(to right,#bb86fc 0%,#940eb5 74%);
+    /* background-image: linear-gradient(to right,#ED1C23 0%,#ED1C23 74%); */
     height: 5vh;
-    /* background-color: aliceblue; */
+    background-color: #3B1988;
+    outline: none;
+    border: none;
     width: 8vw;
     border-radius: 50px;
     font-size: 1.1rem;
     font-weight: 700;
+    color: aliceblue;
 }
 .aboutmesection{
     /* background-image: linear-gradient(135deg,#333,#333);
@@ -114,13 +117,14 @@
     color: #E1AD01;
     position: absolute;
     margin-top: 8vh;
-    text-decoration: underline 2px;
+    font-weight: bold;
+    /* text-decoration: underline 2px; */
     margin-left: 45vw;
 }
 .aboutmetext{
     color: #FFFFFF;
     font-family: Cormorant;
-    font-size: 2rem;
+    font-size: 1.7rem;
     position: absolute;
     width: 80vw;
     left: 10vw;

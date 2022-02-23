@@ -1,14 +1,16 @@
 @media(min-width:1024px){
 .aboutpage{
-    height: 260vh;
+    height: 430vh;
     width: 100%;
+    /* margin-top: 5vh; */
+    /* position: absolute; */
     /* margin-bottom: 20vh; */
     background-color: #1A1A1A;
 }
 .educardall{
     height: auto;
     width: auto;
-    margin-top: 3vh;
+    /* margin-top: 200vh; */
 }
 .educationdata{
     display: grid;
@@ -16,7 +18,9 @@
 }
 .educationtitle{
     color: aliceblue;
+    font-weight: bold;
     font-size: 2rem;
+    margin-top: 200vh;
     margin-left: 10vw;
 }
 .linebreak{
@@ -83,12 +87,15 @@
     width: 85%;
     height: auto;
     margin-left: 10%;
-    margin-top: 25vh;
+    /* margin-bottom: 10vh; */
+    /* margin-top: 25vh; */
     color: aliceblue;
 }
 .skilltitle{
     font-size: 2rem;
-    margin-bottom: 4vh;
+    margin-bottom: 8vh;
+    font-weight: bold;
+    margin-top: 8vh;
 }
 .skillleftright{
     display: flex;

@@ -1,21 +1,28 @@
 .projectpg{
-    height: 90vh;
+    height: 160vh;
+    position: absolute;
     width: 100%;
+    display: grid;
     background-color: #1A1A1A;
 }
 .projecttitle{
+    position: absolute;
     font-size: 2rem;
+    font-weight: bold;
     color: aliceblue;
     margin-left: 48vw;
+    margin-top: 5vh;
 }
 .projectscards{
     display: flex;
+    width: 80%;
     position: absolute;
-    left: 10vw;
-    margin-top: 10vh;
+    left: 10%;
+    margin-top: 20vh;
 }
 .crd1{
-    height: 50vh;
+    position: relative;
+    height: 70vh;
     width: 24vw;
     /* border-radius: 10px; */
     margin-right: 5vw;
@@ -28,7 +35,8 @@
     box-shadow: 4px 8px 9px 5px #808080;
 }
 .crd2{
-    height: 50vh;
+    position: relative;
+    height: 70vh;
     width: 24vw;
     /* border-radius: 10px; */
     margin-right: 5vw;
@@ -41,7 +49,8 @@
     box-shadow: 4px 8px 9px 5px #808080;
 }
 .crd3{
-    height: 50vh;
+    position: relative;
+    height: 70vh;
     width: 24vw;
     /* border-radius: 10px; */
     margin-right: 5vw;
@@ -60,7 +69,98 @@
     height: 10vh;
     width: 5vw;
     border-radius: 15px;
+    object-fit: cover;
 }
+
+.tool{
+    position: absolute;
+    left: 2vw;
+    top: 16vh;
+    color: #1A1A1A;
+}
+.nameproject1{
+    position: absolute;
+    left: 2vw;
+    font-size: large;
+    font-weight: bold;
+    top: 22vh;
+    color: aliceblue;
+}
+.project1txt{
+    position: absolute;
+    width: 17vw;
+    left: 2vw;
+    top: 28vh;
+    text-align: justify;
+    color: aliceblue;
+}
+.icon{
+    position: absolute;
+    height: 8vh;
+    width: 4vw;
+    top: 60vh;
+    left: 2vw;
+}
+.projectscards2{
+    display: flex;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    margin-top: 100vh;
+}
+.crd1b{
+    position: relative;
+    height: 70vh;
+    width: 21vw;
+    /* border-radius: 10px; */
+    margin-right: 5vw;
+    background-color: gray;
+    /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
+}
+.crd1b:hover{
+    background-color: #2b1331;
+    background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
+    box-shadow: 4px 8px 9px 5px #808080;
+}
+.crd2b{
+    position: relative;
+    height: 70vh;
+    width: 22vw;
+    /* border-radius: 10px; */
+    margin-right: 5vw;
+    background-color: gray;
+    /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
+}
+.crd2b:hover{
+    background-color: #2b1331;
+    background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
+    box-shadow: 4px 8px 9px 5px #808080;
+}
+.crd3b{
+    position: relative;
+    display: none;
+    height: 70vh;
+    width: 24vw;
+    /* border-radius: 10px; */
+    margin-right: 5vw;
+    background-color: gray;
+    /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
+}
+.crd3b:hover{
+    background-color: #2b1331;
+    background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
+    box-shadow: 4px 8px 9px 5px #808080;
+}
+.caseiraimg{
+    position: absolute;
+    left: 2vw;
+    top: 4vh;
+    height: 10vh;
+    width: 5vw;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
 .tool{
     position: absolute;
     left: 2vw;
@@ -75,7 +175,7 @@
 }
 .project1txt{
     position: absolute;
-    width: 20vw;
+    width: 17vw;
     left: 2vw;
     top: 28vh;
     text-align: justify;
@@ -85,6 +185,6 @@
     position: absolute;
     height: 8vh;
     width: 4vw;
-    top: 42vh;
+    top: 60vh;
     left: 2vw;
 }

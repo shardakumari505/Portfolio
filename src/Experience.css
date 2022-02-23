@@ -7,6 +7,7 @@
     .exptitle{
         font-size: 2rem;
         margin-left: 45vw;
+        font-weight: bold;
         color: aliceblue;
     }
     .exp1{
@@ -64,6 +65,7 @@
         font-size: 2rem;
         margin-left: 45vw;
         margin-top: 60vh;
+        font-weight: bold;
         color: aliceblue;
     }
     .vol1{
@@ -133,9 +135,46 @@
         width: 15vw;
         border-radius: 30px;
     }
+    .hh1img{
+        height: 35vh;
+        width: 15vw;
+        object-fit: contain;
+        background-color: white;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
     .hhimg{
         height: 35vh;
         width: 15vw;
+        object-fit: contain;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol1imgpic{
+        height: 35vh;
+        width: 15vw;
+        object-fit: contain;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        background-color: black;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol2imgpic{
+        height: 35vh;
+        width: 15vw;
+        object-fit: fill;
+        /* background-color: #17a2b8; */
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol3imgpic{
+        height: 35vh;
+        width: 15vw;
+        object-fit: contain;
+        background-color: black;
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
         box-shadow: 3px 3px 3px 3px black;
@@ -215,6 +254,7 @@
     }
     .parttitle{
         font-size: 2rem;
+        font-weight: bold;
         margin-left: 45vw;
         margin-top: 150vh;
         color: aliceblue;
@@ -224,12 +264,79 @@
         position: absolute;
         left: 20vw;
         margin-top: 10vh;
-        height: 60vh;
-        width: 60vw;
+        height: 63vh;
+        width: 61vw;
         transition: all 1s;
         background-color: #272727;
         border-radius: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         /* box-shadow: 3px 3px 0px 3px black; */
+    }
+    .microsoft{
+        height: 20vh;
+        width: 20vw;
+        background-color: aliceblue;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+    }
+    .technosys{
+        height: 20vh;
+        /* margin-top: 2vh; */
+        width: 20vw;
+        /* margin-left: 2vw; */
+        object-fit: fill;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .quintessential{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        background-color: black;
+        border: 2px solid aliceblue;
+    }
+    .tantrafiesta{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: none;
+    }
+    .ideeavolt{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        background-color: aliceblue;
+        border: 2px solid aliceblue;
+    }
+    .upflairs{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .jigserate{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .chimera{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .aws{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        background-color: aliceblue;
+        border: 2px solid aliceblue;
     }
 }
 

@@ -9,7 +9,7 @@ const Navbar = () =>
         <div className='navbarforall'>
             <div className='namelogo'>Sharda Kumari</div>
             <div className='navbarmenu'>
-                <div className='navbarmenuabout' href={<Skills />}>About</div>
+                <div className='navbarmenuabout' href="#Skills">About</div>
                 <div className='navbarmenuexperience'>Experience</div>
                 <div className='navbarmenuProjects'>Projects</div>
                 <div className='navbarmenuextra'>Extra-curricular</div>
