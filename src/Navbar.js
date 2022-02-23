@@ -10,8 +10,8 @@ const Navbar = () =>
             <div className='namelogo'>Sharda Kumari</div>
             <div className='navbarmenu'>
                 <div className='navbarmenuabout' href="#Skills">About</div>
-                <div className='navbarmenuexperience'>Experience</div>
                 <div className='navbarmenuProjects'>Projects</div>
+                <div className='navbarmenuexperience'>Experience</div>
                 <div className='navbarmenuextra'>Extra-curricular</div>
                 <div className='navbarmenuresume'>Resume</div>
             </div>
