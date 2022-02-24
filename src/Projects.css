@@ -1,35 +1,37 @@
-
-
 .projectpg{
-    height: 160vh;
-    position: absolute;
-    width: 100%;
-    display: grid;
+    height: auto;
+    width: 100vw;
     background-color: #1A1A1A;
+    background-color: antiquewhite;
+}
+.projectmainpage{
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-gap: 2vh;
+    background-color: #1A1A1A;
+    background-color: aqua;
 }
 .projecttitle{
-    position: absolute;
+    width: 80vw;
+    margin-left: 10vw;
+    align-items: center;
+    text-align: center;
     font-size: 2rem;
     font-weight: bold;
     color: aliceblue;
-    margin-left: 48vw;
-    margin-top: 5vh;
 }
-.projectscards{
+.projectscards1{
     display: flex;
-    width: 80%;
-    position: absolute;
-    left: 10%;
-    margin-top: 20vh;
+    width: 80vw;
+    margin-left: 10vw;
 }
 .crd1{
-    position: relative;
-    height: 70vh;
+    min-height: 70vh;
     width: 24vw;
-    /* border-radius: 10px; */
+    display: grid;
     margin-right: 5vw;
     background-color: gray;
-    /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
 }
 .crd1:hover{
     background-color: #2b1331;
@@ -37,13 +39,12 @@
     box-shadow: 4px 8px 9px 5px #808080;
 }
 .crd2{
-    position: relative;
-    height: 70vh;
+    min-height: 70vh;
     width: 24vw;
-    /* border-radius: 10px; */
+    display: grid;
+    grid-gap: 2vh;
     margin-right: 5vw;
     background-color: gray;
-    /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
 }
 .crd2:hover{
     background-color: #2b1331;
@@ -51,23 +52,24 @@
     box-shadow: 4px 8px 9px 5px #808080;
 }
 .crd3{
-    position: relative;
-    height: 70vh;
+    min-height: 70vh;
     width: 24vw;
-    /* border-radius: 10px; */
-    margin-right: 5vw;
+    display: grid;
+    grid-gap: 2vh;
     background-color: gray;
-    /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
 }
 .crd3:hover{
     background-color: #2b1331;
     background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
     box-shadow: 4px 8px 9px 5px #808080;
 }
+.caseira{
+    height: auto;
+    width: auto;
+    margin-top: 2vh;
+    margin-left: 10%;
+}
 .caseiraimg{
-    position: absolute;
-    left: 2vw;
-    top: 4vh;
     height: 10vh;
     width: 5vw;
     border-radius: 15px;
@@ -75,49 +77,48 @@
 }
 
 .tool{
-    position: absolute;
-    left: 2vw;
-    top: 16vh;
+    height: auto;
+    width: auto;
+    margin-left: 10%;
     color: #1A1A1A;
 }
 .nameproject1{
-    position: absolute;
-    left: 2vw;
+    height: auto;
+    width: auto;
+    margin-left: 10%;
     font-size: large;
     font-weight: bold;
-    top: 22vh;
     color: aliceblue;
 }
 .project1txt{
-    position: absolute;
-    width: 17vw;
-    left: 2vw;
-    top: 28vh;
+    width: 80%;
+    margin-left: 10%;
     text-align: justify;
     color: aliceblue;
 }
+.icondiv{
+    height: 8vh;
+    width: auto;
+    bottom: 0px;
+    margin-left: 10%;
+}
 .icon{
-    position: absolute;
     height: 8vh;
     width: 4vw;
-    top: 60vh;
-    left: 2vw;
 }
 .projectscards2{
     display: flex;
-    width: 80%;
-    position: absolute;
-    left: 10%;
-    margin-top: 100vh;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
 }
 .crd1b{
-    position: relative;
-    height: 70vh;
-    width: 21vw;
-    /* border-radius: 10px; */
+    min-height: 70vh;
+    width: 23.5vw;
+    display: grid;
+    grid-gap: 2vh;
     margin-right: 5vw;
     background-color: gray;
-    /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
 }
 .crd1b:hover{
     background-color: #2b1331;
@@ -125,13 +126,12 @@
     box-shadow: 4px 8px 9px 5px #808080;
 }
 .crd2b{
-    position: relative;
-    height: 70vh;
-    width: 22vw;
-    /* border-radius: 10px; */
+    min-height: 70vh;
+    width: 24vw;
+    display: grid;
+    grid-gap: 2vh;
     margin-right: 5vw;
     background-color: gray;
-    /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
 }
 .crd2b:hover{
     background-color: #2b1331;
@@ -139,55 +139,16 @@
     box-shadow: 4px 8px 9px 5px #808080;
 }
 .crd3b{
-    position: relative;
-    display: none;
-    height: 70vh;
+    min-height: 70vh;
     width: 24vw;
-    /* border-radius: 10px; */
-    margin-right: 5vw;
+    display: grid;
+    display: none;
+    grid-gap: 2vh;
     background-color: gray;
-    /* box-shadow: 3px 3px 3px 3px #dfbbfb; */
 }
 .crd3b:hover{
     background-color: #2b1331;
     background-image: linear-gradient(315deg, #2b1331 0%, #b9abcf 74%);
     box-shadow: 4px 8px 9px 5px #808080;
-}
-.caseiraimg{
-    position: absolute;
-    left: 2vw;
-    top: 4vh;
-    height: 10vh;
-    width: 5vw;
-    border-radius: 15px;
-    object-fit: cover;
-}
-
-.tool{
-    position: absolute;
-    left: 2vw;
-    top: 16vh;
-    color: #1A1A1A;
-}
-.nameproject1{
-    position: absolute;
-    left: 2vw;
-    top: 22vh;
-    color: aliceblue;
-}
-.project1txt{
-    position: absolute;
-    width: 17vw;
-    left: 2vw;
-    top: 28vh;
-    text-align: justify;
-    color: aliceblue;
-}
-.icon{
-    position: absolute;
-    height: 8vh;
-    width: 4vw;
-    top: 60vh;
-    left: 2vw;
 }
 

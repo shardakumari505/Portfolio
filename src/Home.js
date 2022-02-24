@@ -33,7 +33,7 @@ useEffect( () =>{
                     <h3>
                         <span ref={textRef}></span>
                     </h3>
-                    <button className='hirebutton'>Hire Me</button>
+                    <div className="profilebtn"><button className='hirebutton'>Hire Me</button></div>
                 </div>
             </div>
         </div>
