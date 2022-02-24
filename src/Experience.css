@@ -1,3 +1,5 @@
+
+@media only screen and (max-width:599px){
     .experiencepg{
         width: 100%;
         height: auto;
@@ -7,6 +9,678 @@
         width: 100%;
         height: auto;
         background-color: #1A1A1A;
+        /* background-color: aqua; */
+        display: grid;
+        grid-gap: 5vh;
+    }
+    .exptitle{
+        font-size: 1.5rem;
+        width: 80vw;
+        margin-top: 10vh;
+        margin-left: 10vw;
+        text-align: center;
+        font-weight: bold;
+        color: aliceblue;
+    }
+    .exp1{
+        display: flex;
+        min-height: 35vh;
+        margin-left: 10vw;
+        width: 80vw;
+        transition: all 1s;
+    }
+    .exp1:hover{
+        transform: scale(1.1);
+    }
+    .exp1img{
+        min-height: 35vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .hh1img{
+        min-height: 35vh;
+        width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol1imgpic{
+        min-height: auto;
+        width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .exp1desc{
+        min-height: 35vh;
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .exp1role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+    .exp1company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1rem;
+    }
+    .exp1date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .exp1exp{
+        width: 80%;
+        margin-left: 5%;
+        text-align: justify;
+        color: aliceblue;
+        /* background-color: antiquewhite; */
+        font-size: 0.7rem;
+    }
+    .voltitle{
+        font-size: 1.6rem;
+        width: 80vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        text-align: center;
+        font-weight: bold;
+        color: aliceblue;
+    }
+    .vol1{
+        display: flex;
+        min-height: 35vh;
+        width: 80vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        transition: all 1s;
+    }
+    .vol1:hover{
+        transform: scale(1.1);
+    }
+    .vol1img{
+        min-height: 35vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .vol1desc{
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .vol1role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+    .vol1company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1rem;
+    }
+    .vol1date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .vol1exp{
+        width: 80%;
+        margin-left: 5%;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 0.7rem;
+    }
+    .vol2{
+        display: flex;
+        width: 80vw;
+        min-height: 35vh;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        transition: all 1s;
+    }
+    .vol2:hover{
+        transform: scale(1.1);
+    }
+    .vol2img{
+        min-height: 35vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .vol1imgpic{
+        min-height: 35vh;
+        width: 15vw;
+        object-fit: contain;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        background-color: black;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol2imgpic{
+        min-height: 35vh;
+        width: 15vw;
+        object-fit: fill;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol3imgpic{
+        min-height: 35vh;
+        width: 15vw;
+        object-fit: contain;
+        background-color: black;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol2desc{
+        /* min-height: 35vh; */
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .vol2role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+    .vol2company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1rem;
+    }
+    .vol2date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .vol2exp{
+        width: 80%;
+        margin-left: 5%;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 0.7rem;
+    }
+    .vol3{
+        display: flex;
+        width: 80vw;
+        min-height: 35vh;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        transition: all 1s;
+    }
+    .vol3:hover{
+        transform: scale(1.1);
+    }
+    .vol3img{
+        min-height: 35vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .vol3desc{
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .vol3role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.5rem;
+        margin-top: 2vh;
+    }
+    .vol3exp{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5vh;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 0.8rem;
+    }
+    .parttitle{
+        font-size: 1.6rem;
+        font-weight: bold;
+        width: 80vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        text-align: center;
+        color: aliceblue;
+    }
+    .participationcrd{
+        display: flex;
+        margin-top: 5vh;
+        margin-left: 20vw;
+        height: 63vh;
+        width: 61vw;
+        transition: all 1s;
+        background-color: #272727;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* box-shadow: 3px 3px 0px 3px black; */
+    }
+    .microsoft{
+        height: 20vh;
+        width: 20vw;
+        background-color: aliceblue;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+    }
+    .technosys{
+        height: 20vh;
+        /* margin-top: 2vh; */
+        width: 20vw;
+        /* margin-left: 2vw; */
+        object-fit: fill;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .quintessential{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        background-color: black;
+        border: 2px solid aliceblue;
+    }
+    .tantrafiesta{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: none;
+    }
+    .ideeavolt{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        background-color: aliceblue;
+        border: 2px solid aliceblue;
+    }
+    .upflairs{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .jigserate{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .chimera{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .aws{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        background-color: aliceblue;
+        border: 2px solid aliceblue;
+    }
+}
+
+
+@media only screen and (min-width:600px){
+    .experiencepg{
+        width: 100%;
+        height: auto;
+        background-color: #1A1A1A;
+    }
+    .experiencepagehome{
+        width: 100%;
+        height: auto;
+        background-color: #1A1A1A;
+        /* background-color: aqua; */
+        display: grid;
+        grid-gap: 5vh;
+    }
+    .exptitle{
+        font-size: 1.6rem;
+        width: 80vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        text-align: center;
+        font-weight: bold;
+        color: aliceblue;
+    }
+    .exp1{
+        display: flex;
+        min-height: 35vh;
+        margin-left: 10vw;
+        width: 80vw;
+        transition: all 1s;
+    }
+    .exp1:hover{
+        transform: scale(1.1);
+    }
+    .exp1img{
+        min-height: 35vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .hh1img{
+        min-height: 35vh;
+        width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol1imgpic{
+        min-height: auto;
+        width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .exp1desc{
+        min-height: 35vh;
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .exp1role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+    .exp1company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1rem;
+    }
+    .exp1date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .exp1exp{
+        width: 80%;
+        margin-left: 5%;
+        text-align: justify;
+        color: aliceblue;
+        /* background-color: antiquewhite; */
+        font-size: 0.7rem;
+    }
+    .voltitle{
+        font-size: 1.6rem;
+        width: 80vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        text-align: center;
+        font-weight: bold;
+        color: aliceblue;
+    }
+    .vol1{
+        display: flex;
+        min-height: 35vh;
+        width: 80vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        transition: all 1s;
+    }
+    .vol1:hover{
+        transform: scale(1.1);
+    }
+    .vol1img{
+        min-height: 35vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .vol1desc{
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .vol1role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+    .vol1company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1rem;
+    }
+    .vol1date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .vol1exp{
+        width: 80%;
+        margin-left: 5%;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 0.7rem;
+    }
+    .vol2{
+        display: flex;
+        width: 80vw;
+        min-height: 35vh;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        transition: all 1s;
+    }
+    .vol2:hover{
+        transform: scale(1.1);
+    }
+    .vol2img{
+        min-height: 35vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .vol1imgpic{
+        min-height: 35vh;
+        width: 15vw;
+        object-fit: contain;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        background-color: black;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol2imgpic{
+        min-height: 35vh;
+        width: 15vw;
+        object-fit: fill;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol3imgpic{
+        min-height: 35vh;
+        width: 15vw;
+        object-fit: contain;
+        background-color: black;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol2desc{
+        /* min-height: 35vh; */
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .vol2role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+    .vol2company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1rem;
+    }
+    .vol2date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .vol2exp{
+        width: 80%;
+        margin-left: 5%;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 0.7rem;
+    }
+    .vol3{
+        display: flex;
+        width: 80vw;
+        min-height: 35vh;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        transition: all 1s;
+    }
+    .vol3:hover{
+        transform: scale(1.1);
+    }
+    .vol3img{
+        min-height: 35vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .vol3desc{
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .vol3role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.5rem;
+        margin-top: 2vh;
+    }
+    .vol3exp{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5vh;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 0.8rem;
+    }
+    .parttitle{
+        font-size: 1.6rem;
+        font-weight: bold;
+        width: 80vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        text-align: center;
+        color: aliceblue;
+    }
+    .participationcrd{
+        display: flex;
+        margin-top: 5vh;
+        margin-left: 20vw;
+        height: 63vh;
+        width: 61vw;
+        transition: all 1s;
+        background-color: #272727;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* box-shadow: 3px 3px 0px 3px black; */
+    }
+    .microsoft{
+        height: 20vh;
+        width: 20vw;
+        background-color: aliceblue;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+    }
+    .technosys{
+        height: 20vh;
+        /* margin-top: 2vh; */
+        width: 20vw;
+        /* margin-left: 2vw; */
+        object-fit: fill;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .quintessential{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        background-color: black;
+        border: 2px solid aliceblue;
+    }
+    .tantrafiesta{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: none;
+    }
+    .ideeavolt{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        background-color: aliceblue;
+        border: 2px solid aliceblue;
+    }
+    .upflairs{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .jigserate{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .chimera{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        border: 2px solid aliceblue;
+        background-color: aliceblue;
+    }
+    .aws{
+        height: 20vh;
+        width: 20vw;
+        object-fit: contain;
+        background-color: aliceblue;
+        border: 2px solid aliceblue;
+    }
+}    
+    
+@media only screen and (min-width:969px){
+    .experiencepg{
+        width: 100%;
+        height: auto;
+        background-color: #1A1A1A;
+    }
+    .experiencepagehome{
+        width: 100%;
+        height: auto;
+        background-color: #1A1A1A;
+        /* background-color: aqua; */
         display: grid;
         grid-gap: 5vh;
     }
@@ -325,3 +999,7 @@
         background-color: aliceblue;
         border: 2px solid aliceblue;
     }
+}
+    
+    
+    
