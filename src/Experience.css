@@ -19,7 +19,7 @@
         margin-top: 10vh;
         margin-left: 10vw;
         text-align: center;
-        font-weight: bold;
+        font-weight: 500;
         color: aliceblue;
     }
     .exp1{
@@ -62,7 +62,8 @@
     .exp1role{
         text-align: center;
         color: aliceblue;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        margin-top: 2vh;
     }
     .exp1company{
         text-align: center;
@@ -75,9 +76,9 @@
         font-size: 0.8rem;
     }
     .exp1exp{
-        width: 80%;
-        margin-left: 5%;
-        text-align: justify;
+        width:75%;
+        /* margin-left: 5%; */
+        text-align: left;
         color: aliceblue;
         /* background-color: antiquewhite; */
         font-size: 0.7rem;
@@ -88,7 +89,7 @@
         margin-top: 5vh;
         margin-left: 10vw;
         text-align: center;
-        font-weight: bold;
+        font-weight: 500;
         color: aliceblue;
     }
     .vol1{
@@ -117,7 +118,8 @@
     .vol1role{
         text-align: center;
         color: aliceblue;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        margin-top: 2vh;
     }
     .vol1company{
         text-align: center;
@@ -130,9 +132,9 @@
         font-size: 0.8rem;
     }
     .vol1exp{
-        width: 80%;
-        margin-left: 5%;
-        text-align: justify;
+        width: 75%;
+        /* margin-left: 5%; */
+        text-align: left;
         color: aliceblue;
         font-size: 0.7rem;
     }
@@ -189,7 +191,8 @@
     .vol2role{
         text-align: center;
         color: aliceblue;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        margin-top: 2vh;
     }
     .vol2company{
         text-align: center;
@@ -202,9 +205,9 @@
         font-size: 0.8rem;
     }
     .vol2exp{
-        width: 80%;
-        margin-left: 5%;
-        text-align: justify;
+        width: 75%;
+        /* margin-left: 5%; */
+        text-align: left;
         color: aliceblue;
         font-size: 0.7rem;
     }
@@ -234,20 +237,20 @@
     .vol3role{
         text-align: center;
         color: aliceblue;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-top: 2vh;
     }
     .vol3exp{
         width: 80%;
         margin-left: 10%;
         margin-top: 5vh;
-        text-align: justify;
+        text-align: left;
         color: aliceblue;
         font-size: 0.8rem;
     }
     .parttitle{
         font-size: 1.6rem;
-        font-weight: bold;
+        font-weight: 500;
         width: 80vw;
         margin-top: 5vh;
         margin-left: 10vw;
@@ -687,7 +690,7 @@
     .exptitle{
         font-size: 2rem;
         width: 80vw;
-        margin-top: 5vh;
+        margin-top: 10vh;
         margin-left: 10vw;
         text-align: center;
         font-weight: bold;
@@ -746,7 +749,7 @@
         font-size: 0.8rem;
     }
     .exp1exp{
-        width: 90%;
+        width: 80%;
         text-align: justify;
         color: aliceblue;
         font-size: 1.1rem;
@@ -799,7 +802,7 @@
         font-size: 0.8rem;
     }
     .vol1exp{
-        width: 90%;
+        width: 80%;
         text-align: justify;
         color: aliceblue;
         font-size: 1.1rem;
@@ -870,7 +873,7 @@
         font-size: 0.8rem;
     }
     .vol2exp{
-        width: 90%;
+        width: 80%;
         text-align: justify;
         color: aliceblue;
         font-size: 1.1rem;
