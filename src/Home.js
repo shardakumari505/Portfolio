@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Navbar from './Navbar';
+import NavbarMobile from './NavbarMobile';
 import Gmail from './gmail.png';
 import Linkedin from './linkedin.gif';
 import Github from './3d-fluency-github.png';
@@ -24,6 +25,7 @@ useEffect( () =>{
 
     return(<div className='homepage'>
         <Navbar />
+        
         <div className='profiletop'>
             <div className='profilepic'><img className='profilepicimg' src={Me} alt='profile' /></div>
             <div className='profileright'>
