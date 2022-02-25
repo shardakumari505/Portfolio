@@ -4,6 +4,7 @@ const NavLinks = (props) => {
     const animateFrom = {opacity: 0, y: -40}
     const animateTo = {opacity: 1, y: -40}
     return(
+        
         <ul>
             <motion.li 
             initial={animateFrom}

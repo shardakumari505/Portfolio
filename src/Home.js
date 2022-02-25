@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Navbar from './Navbar';
+import Navbarlargescreen from './Navbarlargescreen';
 import NavbarMobile from './NavbarMobile';
 import Gmail from './gmail.png';
 import Linkedin from './linkedin.gif';
@@ -24,7 +25,8 @@ useEffect( () =>{
 },[]);
 
     return(<div className='homepage'>
-        <Navbar />
+        <div className='navbarsmall'><Navbar /></div>
+        <div className='navbarlarge'><Navbarlargescreen /></div>
         
         <div className='profiletop'>
             <div className='profilepic'><img className='profilepicimg' src={Me} alt='profile' /></div>
