@@ -11,20 +11,22 @@
         background-color: #1A1A1A;
         /* background-color: aqua; */
         display: grid;
-        grid-gap: 5vh;
+        grid-gap: 2vh;
     }
     .exptitle{
         font-size: 1.5rem;
         width: 80vw;
-        margin-top: 10vh;
+        /* margin-top: 10vh; */
         margin-left: 10vw;
         text-align: center;
         font-weight: 500;
         color: aliceblue;
     }
     .exp1{
-        display: flex;
+        display: grid;
+        grid-gap: 0vh;
         min-height: 35vh;
+        margin-top: 2vh;
         margin-left: 10vw;
         width: 80vw;
         transition: all 1s;
@@ -33,30 +35,19 @@
         transform: scale(1.1);
     }
     .exp1img{
-        min-height: 35vh;
-        width: 15vw;
+        display: none;
+        height: 20vh;
+        width: 80vw;
         border-radius: 30px;
-    }
-    .hh1img{
-        min-height: 35vh;
-        width: 15vw;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .vol1imgpic{
-        min-height: auto;
-        width: 15vw;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
+
     }
     .exp1desc{
         min-height: 35vh;
-        width: 60vw;
+        width: 80vw;
         background-color: #272727;
-        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
+        border-radius: 20px;
         box-shadow: 3px 3px 0px 3px black;
     }
     .exp1role{
@@ -76,8 +67,8 @@
         font-size: 0.8rem;
     }
     .exp1exp{
-        width:75%;
-        /* margin-left: 5%; */
+        /* width:80%;
+        margin-left: 10%; */
         text-align: left;
         color: aliceblue;
         /* background-color: antiquewhite; */
@@ -86,17 +77,18 @@
     .voltitle{
         font-size: 1.6rem;
         width: 80vw;
-        margin-top: 5vh;
+        margin-top: 2vh;
         margin-left: 10vw;
         text-align: center;
         font-weight: 500;
         color: aliceblue;
     }
     .vol1{
-        display: flex;
-        min-height: 35vh;
+        display: grid;
+        grid-gap: 0px;
+        height: auto;
         width: 80vw;
-        margin-top: 5vh;
+        margin-top: 2vh;
         margin-left: 10vw;
         transition: all 1s;
     }
@@ -104,15 +96,17 @@
         transform: scale(1.1);
     }
     .vol1img{
+        display: none;
         min-height: 35vh;
         width: 15vw;
         border-radius: 30px;
     }
     .vol1desc{
-        width: 60vw;
+        width: 80vw;
         background-color: #272727;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
+        border-radius: 20px;
         box-shadow: 3px 3px 0px 3px black;
     }
     .vol1role{
@@ -132,16 +126,17 @@
         font-size: 0.8rem;
     }
     .vol1exp{
-        width: 75%;
+        /* width: 75%; */
         /* margin-left: 5%; */
         text-align: left;
         color: aliceblue;
         font-size: 0.7rem;
     }
     .vol2{
-        display: flex;
+        display: grid;
+        grid-gap: 0px;
         width: 80vw;
-        min-height: 35vh;
+        height: auto;
         margin-top: 5vh;
         margin-left: 10vw;
         transition: all 1s;
@@ -150,42 +145,19 @@
         transform: scale(1.1);
     }
     .vol2img{
+        display: none;
         min-height: 35vh;
         width: 15vw;
         border-radius: 30px;
     }
-    .vol1imgpic{
-        min-height: 35vh;
-        width: 15vw;
-        object-fit: contain;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        background-color: black;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .vol2imgpic{
-        min-height: 35vh;
-        width: 15vw;
-        object-fit: fill;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .vol3imgpic{
-        min-height: 35vh;
-        width: 15vw;
-        object-fit: contain;
-        background-color: black;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
-    }
+    
     .vol2desc{
         /* min-height: 35vh; */
-        width: 60vw;
+        width: 80vw;
         background-color: #272727;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
+        border-radius: 20px;
         box-shadow: 3px 3px 0px 3px black;
     }
     .vol2role{
@@ -205,16 +177,17 @@
         font-size: 0.8rem;
     }
     .vol2exp{
-        width: 75%;
+        /* width: 80vw; */
         /* margin-left: 5%; */
         text-align: left;
         color: aliceblue;
         font-size: 0.7rem;
     }
     .vol3{
-        display: flex;
+        display: grid;
+        grid-gap: 0px;
         width: 80vw;
-        min-height: 35vh;
+        height: auto;
         margin-top: 5vh;
         margin-left: 10vw;
         transition: all 1s;
@@ -223,15 +196,17 @@
         transform: scale(1.1);
     }
     .vol3img{
+        display: none;
         min-height: 35vh;
         width: 15vw;
         border-radius: 30px;
     }
     .vol3desc{
-        width: 60vw;
+        width: 80vw;
         background-color: #272727;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
+        border-radius: 20px;
         box-shadow: 3px 3px 0px 3px black;
     }
     .vol3role{
@@ -241,9 +216,10 @@
         margin-top: 2vh;
     }
     .vol3exp{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
         width: 80%;
         margin-left: 10%;
-        margin-top: 5vh;
         text-align: left;
         color: aliceblue;
         font-size: 0.8rem;
@@ -252,20 +228,19 @@
         font-size: 1.6rem;
         font-weight: 500;
         width: 80vw;
-        margin-top: 5vh;
+        margin-top: 2vh;
         margin-left: 10vw;
         text-align: center;
         color: aliceblue;
     }
     .participationcrd{
         display: flex;
-        margin-top: 5vh;
+        margin-top: 2vh;
         margin-left: 20vw;
         height: 63vh;
         width: 61vw;
         transition: all 1s;
         background-color: #272727;
-        border-radius: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         /* box-shadow: 3px 3px 0px 3px black; */
