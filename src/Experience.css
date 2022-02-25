@@ -36,7 +36,7 @@
     }
     .exp1img{
         display: none;
-        height: 20vh;
+        min-height: 35vh;
         width: 80vw;
         border-radius: 30px;
 
@@ -241,6 +241,7 @@
         width: 61vw;
         transition: all 1s;
         background-color: #272727;
+
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         /* box-shadow: 3px 3px 0px 3px black; */
@@ -673,7 +674,7 @@
     }
     .exp1{
         display: flex;
-        min-height: 35vh;
+        min-height: 40vh;
         margin-left: 10vw;
         width: 80vw;
         transition: all 1s;
@@ -682,19 +683,19 @@
         transform: scale(1.1);
     }
     .exp1img{
-        min-height: 35vh;
+        height: 40vh;
         width: 15vw;
         border-radius: 30px;
     }
     .hh1img{
-        min-height: 35vh;
-        width: 15vw;
+        height: 40vh;
+        min-width: 15vw;
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
         box-shadow: 3px 3px 3px 3px black;
     }
     .vol1imgpic{
-        min-height: auto;
+        height: 50vh;
         width: 15vw;
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
