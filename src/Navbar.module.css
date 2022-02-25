@@ -12,10 +12,11 @@
     align-items: center;
 }
 
-/* .Navbar nav ul{
+.Navbar nav ul{
     list-style: none;
-    position: absolute;
-} */
+    margin: 0px;
+    padding: 0px;
+}
 
 .Navbar nav ul li{
     display: inline-block;
@@ -31,14 +32,13 @@
     color:  #E1AD01;
 }
 
-/* .Navbar .NavbarMobile{
+.Navbar .NavbarMobile{
     display: none;
-} */
+}
 
 @media(max-width:600px){
     .Navbar .Navigation{
         display: none;
-        width: 100%;
     }
 
     .Navbar .NavbarMobile{
