@@ -3,7 +3,7 @@ import classes from './Navbar.module.css';
 import Navbar from './Navbar';
 import NavLinks from './NavLinks'; 
 import {HiOutlineMenu} from 'react-icons/hi';
-import {GrClose} from 'react-icons/gr';
+import {AiOutlineClose} from 'react-icons/ai';
 import { useState } from 'react';
 
 
@@ -14,12 +14,13 @@ const NavbarMobile = () =>
 
     const hamburgerIcon = <HiOutlineMenu className={classes.Hamburger} size='40px' color='white' onClick={() => setOpen(!open)} />
 
-    const closeIcon = <GrClose className={classes.Hamburger} size='40px' color='white' onClick={() => setOpen(!open)} />
+    const closeIcon = <AiOutlineClose className={classes.Hamburger} size='40px' color='white' onClick={() => setOpen(!open)} />
     
-    
+    const closeMobileMenu = () => setOpen(false);
+
     return(<nav className={classes.NavbarMobile}>
         {open ? closeIcon : hamburgerIcon}
-        {open && <NavLinks />}
+        {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} />}
 
     </nav>)
 }
