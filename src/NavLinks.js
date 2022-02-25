@@ -1,17 +1,31 @@
 import {motion} from 'framer-motion';
 
 const NavLinks = (props) => {
+    const animateFrom = {opacity: 0, y: -40}
+    const animateTo = {opacity: 1, y: -40}
     return(
         <ul>
-            <li onClick={() => props.isMobile && props.closeMobileMenu()} >
+            <motion.li 
+            initial={animateFrom}
+            animate={animateTo}
+            transition={{delay:0.05}}
+            onClick={() => props.isMobile && props.closeMobileMenu()} >
                 <a href="/#Skills">About</a>
-            </li>
-            <li onClick={() => props.isMobile && props.closeMobileMenu()} >
+            </motion.li>
+            <motion.li 
+            initial={animateFrom}
+            animate={animateTo}
+            transition={{delay:0.10}}
+            onClick={() => props.isMobile && props.closeMobileMenu()} >
                 <a href="/#Projects">Projects</a>
-            </li>
-            <li onClick={() => props.isMobile && props.closeMobileMenu()} >
+            </motion.li>
+            <motion.li 
+            initial={animateFrom}
+            animate={animateTo}
+            transition={{delay:0.20}}
+            onClick={() => props.isMobile && props.closeMobileMenu()} >
                 <a href="/#Experience">Experience</a>
-            </li>
+            </motion.li>
         </ul>
     )
 }

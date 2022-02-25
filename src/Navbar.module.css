@@ -51,14 +51,15 @@
         cursor: pointer;
     }
     .Navbar nav ul{
-        display: grid;
+        display: flex;
+        flex-direction: column;
         position: absolute;
+        left: 0px;
+        text-align: center;
         top: 50px;
         background-color: #202020;
         width: 100%;
-        left: 0;
-        text-align: center;
-        border-top: 3px solid #1A1A1A;
+        /* border-top: 3px solid #1A1A1A; */
     }
     .Navbar{
         opacity: 0.9;
