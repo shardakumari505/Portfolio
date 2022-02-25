@@ -126,10 +126,7 @@ body{
         right: 2vw;
         /* background-color: aliceblue; */
     }
-    .logo{
-        /* height: 6vh;
-        width: 6vh; */
-    }
+    
     .gmaillogo{
         height: 6vh;
         width: 6vh;
@@ -203,6 +200,7 @@ body{
     }
     .profiletop{
         height: 100vh;
+        width: 100%;
     }
     .profilepic{
         width: 33vw;
@@ -317,10 +315,6 @@ body{
         right: 2vw;
         /* background-color: aliceblue; */
     }
-    .logo{
-        /* height: 6vh;
-        width: 6vh; */
-    }
     .gmaillogo{
         height: 6vh;
         width: 6vh;
@@ -395,15 +389,16 @@ body{
     }
     .profiletop{
         height: 100vh;
+        /* width: 100%; */
     }
     .profilepic{
-        width: 60vh;
+        width: 60%;
         height: 60vh;
         border-radius: 30vh;
         /* background-color: aliceblue; */
         position: absolute;
         top: 25vh;
-        left: 10vw;
+        left: 10%;
         /* background-image: url("bg.jpg"); */
     }
     
@@ -418,8 +413,8 @@ body{
     .profileright{
         position: absolute;
         top: 40vh;
-        width: 40vw;
-        right: 5vw;
+        width: 40%;
+        right: 5%;
     }
     .profileright h1{
         color: aliceblue;
@@ -471,7 +466,7 @@ body{
         src: url(BetterGrade-519DV.ttf)
     }
     .aboutmetitle{
-        width: 100vw;
+        width: 100%;
         /* background-color: #940eb5; */
         font-size: 2.5rem;
         color: #E1AD01;
@@ -487,7 +482,7 @@ body{
         font-family: Cormorant;
         font-size: 1.7rem;
         position: absolute;
-        width: 80vw;
+        width: 80%;
         left: 10vw;
         margin-top: 20vh;
         text-align: justify;
@@ -506,10 +501,6 @@ body{
         /* bottom: 8vh;
         right: 2vw; */
         /* background-color: aliceblue; */
-    }
-    .logo{
-        /* height: 6vh;
-        width: 6vh; */
     }
     .gmaillogo{
         height: 6vh;
