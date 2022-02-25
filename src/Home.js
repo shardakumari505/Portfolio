@@ -2,7 +2,6 @@ import React from 'react';
 import './Home.css';
 import Navbar from './Navbar';
 import Navbarlargescreen from './Navbarlargescreen';
-import NavbarMobile from './NavbarMobile';
 import Gmail from './gmail.png';
 import Linkedin from './linkedin.gif';
 import Github from './3d-fluency-github.png';

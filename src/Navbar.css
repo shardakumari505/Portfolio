@@ -2,49 +2,11 @@
 
 
     
-@media only screen and (min-width:600px){
-    .navbarpg{
-        width: 100%;
-        background-color: #202020;
-        /* background-image: url(peakpx3.jpg); */
-        position: fixed;
-        z-index: 999;
-        height: 12vh;
-    }
-    .navbarforall{
-        width: 85vw;
-        height: 5vh;
-        color: aliceblue;
-        position: fixed;
-        top: 5vh;
-        left: 10vw;
-        display: flex;
-        justify-content: space-between;
-        font-family: Poppins;
-        font-size: 0.9rem;
-    }
-    @font-face {
-        font-family: Agustina;
-        src: url(Agustina-Signature.otf)
-    }
-    .namelogo{
-        font-family: Agustina;
-        font-size: 25px;
-        /* font-weight: bold; */
-    }
-    .navbarmenu{
-        width: 40vw;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        
-    }
-}
-
 @media only screen and (min-width:969px){
+    
     .navbarpg{
         width: 100%;
-        background-color: #202020;
+        background-color: aliceblue;
         /* background-image: url(peakpx3.jpg); */
         position: fixed;
         z-index: 999;
@@ -78,4 +40,41 @@
         justify-content: space-around;
         cursor: pointer;
     }
+}
+
+.navbarpg{
+    width: 100%;
+    background-color: #202020;
+    /* background-image: url(peakpx3.jpg); */
+    position: fixed;
+    z-index: 999;
+    height: 12vh;
+}
+.navbarforall{
+    width: 85vw;
+    height: 5vh;
+    color: aliceblue;
+    position: fixed;
+    top: 5vh;
+    left: 10vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-size: 1.1rem;
+}
+@font-face {
+    font-family: Agustina;
+    src: url(Agustina-Signature.otf)
+}
+.namelogo{
+    font-family: Agustina;
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+.navbarmenu{
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: pointer;
 }
