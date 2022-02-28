@@ -17,13 +17,8 @@ export default function Skills(){
 
 
     return(<div className='aboutpage'>
-        <Navbar />
-        <div className='contactmeat'>
-                <div className=''><img className='gmaillogo' src={Gmail} alt="loading..." /></div>
-                <div className=''><img className='linkedinlogo' src={Linkedin} alt="loading..." /></div>
-                <div className=''><img className='gitlogo' src={Github} alt="loading..." /></div>
-                <div className=''><img className='twitterlogo' src={Twitter} alt="loading..." /></div>
-        </div>
+        
+        
         <div className='educationdata'>
             <div className='educationtitle'>Education</div>
             <div className='educardall'>

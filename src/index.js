@@ -2,20 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Skills from './Skills';
-import Experience from './Experience';
-import Projects from './Projects';
-import Contact from './Contact';
 import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <BrowserRouter>
     <App />
-    <Projects />
-    <Skills />
-    <Experience />
-    <Contact />
   </BrowserRouter>
     
   ,

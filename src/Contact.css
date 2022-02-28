@@ -63,6 +63,10 @@
         right: 2vw; */
         /* background-color: aliceblue; */
     }
+    .buttona{
+        text-decoration: none;
+        color: #fff;
+    }
     .logo1{
         height: 6vh;
         width: 5vw;
@@ -198,6 +202,10 @@
         right: 2vw; */
         /* background-color: aliceblue; */
     }
+    .buttona{
+        text-decoration: none;
+        color: #fff;
+    }
     .logo1{
         height: 6vh;
         width: 5vw;
@@ -304,6 +312,7 @@
         min-height: 5vh;
         width: 100%;
         text-align: center;
+        text-decoration: none;
         /* margin-left: 47.5vw; */
      } 
     .contactbutton{
@@ -314,6 +323,12 @@
         color: #fff;
         text-align: center;
         font-size: 1.2rem;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .buttona{
+        text-decoration: none;
+        color: #fff;
     }
     .lastdiv{
         height: 30vh;

@@ -40,6 +40,10 @@
         justify-content: space-around;
         cursor: pointer;
     }
+    .navlinkmenu{
+        text-decoration: none;
+        color: aliceblue;
+    }
 }
 
 .navbarpg{
@@ -77,4 +81,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     cursor: pointer;
+}
+.navlinkmenu{
+    text-decoration: none;
+    color: aliceblue;
 }

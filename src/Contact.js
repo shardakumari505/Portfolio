@@ -12,7 +12,7 @@ export default function contact(){
         <div className='extracurricularpg'>
             <div className='contacttitle'>CONTACT</div>
             <div className='contacttxt'>Up for a Tech talk or would like to contribute together ? Fabulous!</div>
-            <div className='contactbtndiv'><button className='contactbutton'>Connect</button></div>
+            <div className='contactbtndiv'><button className='contactbutton'><a className='buttona' href="mailto:shardakumari505@gmail.com">Connect</a></button></div>
         </div>
         <div className='lastdiv'>
             <div className='contactmeatft'>

@@ -662,6 +662,7 @@
         /* background-color: aqua; */
         display: grid;
         grid-gap: 5vh;
+        margin-bottom: 5vh;
     }
     .exptitle{
         font-size: 2rem;

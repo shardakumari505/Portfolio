@@ -147,7 +147,6 @@
         min-height: 70vh;
         width: 24vw;
         display: grid;
-        display: none;
         grid-gap: 2vh;
         background-color: gray;
     }
@@ -304,7 +303,6 @@
         min-height: 70vh;
         width: 24vw;
         display: grid;
-        display: none;
         grid-gap: 2vh;
         background-color: gray;
     }
@@ -461,7 +459,6 @@
         min-height: 70vh;
         width: 24vw;
         display: grid;
-        display: none;
         grid-gap: 2vh;
         background-color: gray;
     }

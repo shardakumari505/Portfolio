@@ -1,5 +1,9 @@
 import React from 'react';
 import './Home.css';
+import Skills from './Skills';
+import Experience from './Experience';
+import Projects from './Projects';
+import Contact from './Contact';
 import Navbar from './Navbar';
 import Navbarlargescreen from './Navbarlargescreen';
 import Gmail from './gmail.png';
@@ -36,7 +40,7 @@ useEffect( () =>{
                     <h3>
                         <span ref={textRef}></span>
                     </h3>
-                    <div className="profilebtn"><button className='hirebutton'>Hire Me</button></div>
+                    <div className="profilebtn"><button className='hirebutton'><a className='buttonah' href="mailto:shardakumari505@gmail.com">Hire Me</a></button></div>
                 </div>
             </div>
         </div>
@@ -46,11 +50,15 @@ useEffect( () =>{
             </div>
         </div>
         <div className='contactmeat'>
-                <a href="mailto:shardakumari505@gmail.com"><div className='logo'><img className='gmaillogo' src={Gmail} alt="loading..." /></div></a>
-                <a href="https://www.linkedin.com/in/sharda-k-359592201/"><div className='logo'><img className='linkedinlogo' src={Linkedin} alt="loading..." /></div></a>
-                <a href="https://github.com/shardakumari505"><div className='logo'><img className='gitlogo' src={Github} alt="loading..." /></div></a>
-                <a href="https://twitter.com/sharda9_singh"><div className='logo'><img className='twitterlogo' src={Twitter} alt="loading..." /></div></a>
+                <a href="mailto:shardakumari505@gmail.com"><div className='logo1'><img className='gmaillogo' src={Gmail} alt="loading..." /></div></a>
+                <a href="https://www.linkedin.com/in/sharda-k-359592201/"><div className='logo1'><img className='linkedinlogo' src={Linkedin} alt="loading..." /></div></a>
+                <a href="https://github.com/shardakumari505"><div className='logo1'><img className='gitlogo' src={Github} alt="loading..." /></div></a>
+                <a href="https://twitter.com/sharda9_singh"><div className='logo1'><img className='twitterlogo' src={Twitter} alt="loading..." /></div></a>
         </div>
+        <Projects />
+        <Skills />
+        <Experience />
+        <Contact />
         <div className='footer'><img className='ftimg' src={Ft} alt='c' /></div>
         
 

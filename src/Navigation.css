@@ -11,5 +11,10 @@
         position: absolute;
         font-family: Agustina;
         font-size: 30px;
+        
+    }
+    .navlinkmenu1{
+        text-decoration: none;
+        color: aliceblue;
     }
 }
