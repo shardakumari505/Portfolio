@@ -3,13 +3,19 @@
     .aboutpage{
         height: 290vh;
         width: 100%;
-        /* margin-top: 5vh; */
+        margin-top: 5vh;
         /* position: absolute; */
         /* margin-bottom: 20vh; */
         background-color: #1A1A1A;
         /* background-color: burlywood; */
     }
-    
+    .navbarlargeskill{
+        display: none;
+    }
+    .navbarsmallskill{
+        position: absolute;
+        top: 0px;
+    }
     .educardall{
         height: auto;
         width: auto;
@@ -249,15 +255,26 @@
 }
 
 
-@media only screen and (min-width:600px){
+@media (min-width:600px) and (max-width:968px){
     .aboutpage{
         height: 200vh;
         width: 100%;
-        /* margin-top: 5vh; */
+        margin-top: 5vh;
         /* position: absolute; */
         /* margin-bottom: 20vh; */
         background-color: #1A1A1A;
         /* background-color: burlywood; */
+    }
+    .navbarlargeskill{
+        display: none;
+    }
+    .navbarsmallskill{
+        position: absolute;
+        top: 0px;
+    }
+    .profiletop{
+        height: 100vh;
+        width: 100%;
     }
     .educardall{
         height: auto;
@@ -498,13 +515,20 @@
 
 @media only screen and (min-width:969px){
     .aboutpage{
-        height: 230vh;
+        height: 225vh;
         width: 100%;
-        /* margin-top: 5vh; */
+        margin-top: 5vh;
         /* position: absolute; */
         /* margin-bottom: 20vh; */
         background-color: #1A1A1A;
         /* background-color: burlywood; */
+    }
+    .navbarsmallskill{
+        display:none;
+    }
+    .navbarlargeskill{
+        position: absolute;
+        top: 0px;
     }
     .educardall{
         height: auto;

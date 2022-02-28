@@ -531,10 +531,10 @@ body{
         /* background-color: aliceblue; */
     }
     
-    .gmaillogo{
-        height: 6vh;
-        width: 6vh;
-        border-radius: 3vh;
+    .gmaillogo1{
+        height: 5vh;
+        width: 5vh;
+        border-radius: 2.5vh;
         /* background-color: gray; */
         margin-left:0.5vh;
         transition: all 0.5s;
@@ -543,7 +543,7 @@ body{
     .gmaillogo:hover{
         transform: scale(1.2);
     }
-    .linkedinlogo{
+    .linkedinlogo1{
         height: 6vh;
         width: 6vh;
         border-radius: 3vh;
@@ -554,7 +554,7 @@ body{
     .linkedinlogo:hover{
         transform: scale(1.2);
     }
-    .gitlogo{
+    .gitlogo1{
         height: 6vh;
         width: 6vh;
         border-radius: 3vh;
@@ -565,7 +565,7 @@ body{
     .gitlogo:hover{
         transform: scale(1.2);
     }
-    .twitterlogo{
+    .twitterlogo1{
         height: 6vh;
         width: 6vh;
         border-radius: 3vh;

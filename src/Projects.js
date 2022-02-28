@@ -1,14 +1,19 @@
 import React from 'react';
 import './Projects.css';
+import Navbar from './Navbar';
+import Navbarlargescreen from './Navbarlargescreen';
 import Caseira from './caseira.jpg';
 import Webpage from './webpage.jpg';
 import Chatbot from './chatbot.jpg';
 import Concrete from './Concrete.jpg';
 import Covid from './Covid.png';
+import Heart from './heart.jpg'
 import Linkicon from './linkicon.png';
 
 export default function Projects(){
     return(<div className='projectpg'>
+                <div className='navbarsmallprojects'><Navbar /></div>
+                <div className='navbarlargeprojects'><Navbarlargescreen /></div>
                 <div className='projectmainpage'>
                     <div className='projecttitle'>Projects</div>
                     <div className='projectscards1'>
@@ -50,11 +55,11 @@ export default function Projects(){
                             <a href="https://github.com/shardakumari505/covid_analysis"><div className='icondiv'><img className='icon' src={Linkicon} alt="link" /></div></a>
                         </div>
                         <div className='crd3b'>
-                            <div className='caseira'><img className='caseiraimg' src={Chatbot} alt="caseira" /></div>
-                            <div className='tool'>Python</div>
-                            <div className='nameproject1'>Chatbot</div>
-                            <div className='project1txt'>Programmed a chatbot using few different libraries of Python which takes link of a webpage as input , reads the page and further answers the users questions based on the page.</div>
-                            <div className='icondiv'><img className='icon' src={Linkicon} alt="link" /></div>
+                            <div className='caseira'><img className='caseiraimg' src={Heart} alt="caseira" /></div>
+                            <div className='tool'>Python , Logistic Regression</div>
+                            <div className='nameproject1'>Heart Attack Prediction</div>
+                            <div className='project1txt'>To ease the prediction of Heart Attacks in a patient , prepared a machine learning model using Logistic Regression technique which takes certain inputs of data and give the output whether there is any possibility of heart attack or not.</div>
+                            <a href="https://github.com/shardakumari505/Heart-Attack-Prediction"><div className='icondiv'><img className='icon' src={Linkicon} alt="link" /></div></a>
                         </div>
                     </div>
                 </div>

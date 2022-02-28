@@ -13,10 +13,14 @@ import Upflairs from './Upflairs.png';
 import Jigserate from './Jigserate.png';
 import Chimera from './chimera.png';
 import Aws from './aws.png';
+import Navbar from './Navbar';
+import Navbarlargescreen from './Navbarlargescreen';
 
 export default function Experience(){
 
     return(<div className='experiencepg'>
+            <div className='navbarsmallexperience'><Navbar /></div>
+            <div className='navbarlargeexperience'><Navbarlargescreen /></div>
             <div className='experiencepagehome'>
                 <div className='exptitle'>Work Experience</div>
                 <div className='exp1'>

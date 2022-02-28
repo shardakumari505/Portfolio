@@ -50,10 +50,10 @@ useEffect( () =>{
             </div>
         </div>
         <div className='contactmeat'>
-                <a href="mailto:shardakumari505@gmail.com"><div className='logo1'><img className='gmaillogo' src={Gmail} alt="loading..." /></div></a>
-                <a href="https://www.linkedin.com/in/sharda-k-359592201/"><div className='logo1'><img className='linkedinlogo' src={Linkedin} alt="loading..." /></div></a>
-                <a href="https://github.com/shardakumari505"><div className='logo1'><img className='gitlogo' src={Github} alt="loading..." /></div></a>
-                <a href="https://twitter.com/sharda9_singh"><div className='logo1'><img className='twitterlogo' src={Twitter} alt="loading..." /></div></a>
+                <a href="mailto:shardakumari505@gmail.com"><div className='logo1'><img className='gmaillogo1' src={Gmail} alt="loading..." /></div></a>
+                <a href="https://www.linkedin.com/in/sharda-k-359592201/"><div className='logo1'><img className='linkedinlogo1' src={Linkedin} alt="loading..." /></div></a>
+                <a href="https://github.com/shardakumari505"><div className='logo1'><img className='gitlogo1' src={Github} alt="loading..." /></div></a>
+                <a href="https://twitter.com/sharda9_singh"><div className='logo1'><img className='twitterlogo1' src={Twitter} alt="loading..." /></div></a>
         </div>
         <Projects />
         <Skills />

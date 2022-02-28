@@ -5,9 +5,17 @@
         height: auto;
         background-color: #1A1A1A;
     }
+    .navbarlargeexperience{
+        display: none;
+    }
+    .navbarsmallexperience{
+        position: absolute;
+        top: 0px;
+    }
     .experiencepagehome{
         width: 100%;
         height: auto;
+        margin-top: 10vh;
         background-color: #1A1A1A;
         /* background-color: aqua; */
         display: grid;
@@ -314,15 +322,23 @@
 }
 
 
-@media only screen and (min-width:600px){
+@media (min-width:600px) and (max-width:968px){
     .experiencepg{
         width: 100%;
         height: auto;
         background-color: #1A1A1A;
     }
+    .navbarlargeexperience{
+        display: none;
+    }
+    .navbarsmallexperience{
+        position: absolute;
+        top: 0px;
+    }
     .experiencepagehome{
         width: 100%;
         height: auto;
+        margin-top: 4vh;
         background-color: #1A1A1A;
         /* background-color: aqua; */
         display: grid;
@@ -655,6 +671,13 @@
         height: auto;
         background-color: #1A1A1A;
     }
+    .navbarsmallexperience{
+        display:none;
+    }
+    .navbarlargeexperience{
+        position: absolute;
+        top: 0px;
+    }
     .experiencepagehome{
         width: 100%;
         height: auto;
@@ -662,6 +685,7 @@
         /* background-color: aqua; */
         display: grid;
         grid-gap: 5vh;
+        margin-top: 4vh;
         margin-bottom: 5vh;
     }
     .exptitle{
