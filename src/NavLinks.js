@@ -1,4 +1,5 @@
 import {motion} from 'framer-motion';
+import { Link } from "react-router-dom";
 
 const NavLinks = (props) => {
     const animateFrom = {opacity: 0, y: -40}
@@ -11,7 +12,7 @@ const NavLinks = (props) => {
             animate={animateTo}
             transition={{delay:0.05}}
             onClick={() => props.isMobile && props.closeMobileMenu()} >
-                <a href="/#Skills">About</a>
+                <Link to="/about">About</Link>
             </motion.li>
             <motion.li 
             initial={animateFrom}

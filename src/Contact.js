@@ -4,6 +4,8 @@ import Gmail from './gmail.png';
 import Linkedin from './linkedin.gif';
 import Github from './3d-fluency-github.png';
 import Twitter from './twitter.gif';
+import { Link } from "react-router-dom";
+
 
 export default function contact(){
     return(<div className='contactdifffiv'>
@@ -14,10 +16,10 @@ export default function contact(){
         </div>
         <div className='lastdiv'>
             <div className='contactmeatft'>
-                <div className='logo1'><img className='gmaillogo' src={Gmail} alt="loading..." /></div>
-                <div className='logo1'><img className='linkedinlogo' src={Linkedin} alt="loading..." /></div>
-                <div className='logo1'><img className='gitlogo' src={Github} alt="loading..." /></div>
-                <div className='logo1'><img className='twitterlogo' src={Twitter} alt="loading..." /></div>
+                <a href="mailto:shardakumari505@gmail.com"><div className='logo1'><img className='gmaillogo' src={Gmail} alt="loading..." /></div></a>
+                <a href="https://www.linkedin.com/in/sharda-k-359592201/"><div className='logo1'><img className='linkedinlogo' src={Linkedin} alt="loading..." /></div></a>
+                <a href="https://github.com/shardakumari505"><div className='logo1'><img className='gitlogo' src={Github} alt="loading..." /></div></a>
+                <a href="https://twitter.com/sharda9_singh"><div className='logo1'><img className='twitterlogo' src={Twitter} alt="loading..." /></div></a>
             </div>
             <div className='lastdivitem'></div>
             <div className='namelogoftr'>Sharda Kumari</div>

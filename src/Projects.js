@@ -16,7 +16,7 @@ export default function Projects(){
                             <div className='caseira'><img className='caseiraimg' src={Caseira} alt="caseira" /></div>
                             <div className='tool'>Python</div>
                             <div className='nameproject1'>Caseira Virtual Assistant</div>
-                            <div className='project1txt'>Created an AI assistant that uses speech recognition and responses according. Used different Python libraries to access wikipedia , calender , browser , etc.</div>
+                            <div className='project1txt'>Created an AI assistant that uses speech recognition and responses accordingly. Used different Python libraries to access wikipedia , calender , browser , etc.</div>
                             <div className='icondiv'><img className='icon' src={Linkicon} alt="link" /></div>
                         </div>
                         <div className='crd2'>

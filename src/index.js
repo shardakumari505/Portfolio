@@ -6,16 +6,17 @@ import Skills from './Skills';
 import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
+import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
     <Projects />
     <Skills />
     <Experience />
     <Contact />
-  </React.StrictMode>
+  </BrowserRouter>
     
   ,
   document.getElementById('root')

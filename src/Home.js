@@ -46,10 +46,10 @@ useEffect( () =>{
             </div>
         </div>
         <div className='contactmeat'>
-                <div className='logo'><img className='gmaillogo' src={Gmail} alt="loading..." /></div>
-                <div className='logo'><img className='linkedinlogo' src={Linkedin} alt="loading..." /></div>
-                <div className='logo'><img className='gitlogo' src={Github} alt="loading..." /></div>
-                <div className='logo'><img className='twitterlogo' src={Twitter} alt="loading..." /></div>
+                <a href="mailto:shardakumari505@gmail.com"><div className='logo'><img className='gmaillogo' src={Gmail} alt="loading..." /></div></a>
+                <a href="https://www.linkedin.com/in/sharda-k-359592201/"><div className='logo'><img className='linkedinlogo' src={Linkedin} alt="loading..." /></div></a>
+                <a href="https://github.com/shardakumari505"><div className='logo'><img className='gitlogo' src={Github} alt="loading..." /></div></a>
+                <a href="https://twitter.com/sharda9_singh"><div className='logo'><img className='twitterlogo' src={Twitter} alt="loading..." /></div></a>
         </div>
         <div className='footer'><img className='ftimg' src={Ft} alt='c' /></div>
         
