@@ -29,17 +29,17 @@ body{
     
     .profilepicimg{
         position: absolute;
-        left: 35vw;
-        height: 30vw;
-        width: 30vw;
-        border-radius: 15vw;
+        left: 30vw;
+        height: 40vw;
+        width: 40vw;
+        border-radius: 20vw;
         object-fit: contain;
         box-shadow: 10px 10px 10px 10px #3E3B39;
         
     }
     .profileright{
         position: absolute;
-        top: 33vh;
+        top: 40vh;
         width: 100vw;
         text-align: center;
         /* right: 5vw; */
@@ -62,7 +62,7 @@ body{
         background-color: #3B1988;
         outline: none;
         border: none;
-        min-width: 8vw;
+        min-width: 90px;
         border-radius: 50px;
         font-size: 0.8rem;
         font-weight: 700;
@@ -255,7 +255,7 @@ body{
         background-color: #3B1988;
         outline: none;
         border: none;
-        min-width: 8vw;
+        min-width: 10vw;
         border-radius: 50px;
         font-size: 1rem;
         font-weight: 700;
@@ -462,6 +462,7 @@ body{
         font-size: 1.1rem;
         font-weight: 700;
         color: aliceblue;
+        cursor: alias;
     }
     .buttonah{
         text-decoration: none;

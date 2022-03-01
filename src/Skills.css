@@ -1,9 +1,9 @@
 
 @media only screen and (max-width:599px){
     .aboutpage{
-        height: 290vh;
+        height: 255vh;
         width: 100%;
-        margin-top: 5vh;
+        /* margin-top: 2vh; */
         /* position: absolute; */
         /* margin-bottom: 20vh; */
         background-color: #1A1A1A;
@@ -71,24 +71,25 @@
         background-color: blue;
     }
     .collegeimg{
-        height: 10vh;
-        width: 10vw;
+        height: 20vh;
+        /* width: 10vw; */
         margin-top: 3vh;
         margin-right: 3vw;
     }
     .collegeimgpic{
-        height: 10vh;
-        width: 10vw;
+        height: auto;
+        width: 14vw;
+        /* background-color: green; */
+        object-fit: contain;
     }
     .schl2img{
-        /* background-color: green; */
         height: 20vh;
         margin-right: 3vw;
-        /* margin-top: 4vh; */
+        margin-top: 3vh;
     }
     .schl2imgpic{
-        height: 20vh;
-        width: 10vw;
+        height: auto;
+        width: 20vw;
         /* background-color: #17A2B8; */
         object-fit: contain;
     }
