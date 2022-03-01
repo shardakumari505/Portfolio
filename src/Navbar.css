@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Poppins:wght@600;700&family=Roboto&display=swap');
 
-
     
 @media only screen and (min-width:969px){
     
@@ -44,6 +43,11 @@
         text-decoration: none;
         color: aliceblue;
     }
+    #icon{
+        width: 25px;
+        height: 25px;
+    }
+    
 }
 
 .navbarpg{
