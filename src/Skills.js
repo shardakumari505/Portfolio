@@ -32,9 +32,9 @@ export default function Skills(){
                         <h2 className='cllgcourse'>Bachelor of Technology in Electronics and Communication Engineering</h2>
                         <h2 className='cllgdate'>DECEMBER 2020 - MAY 2024 (Expected)</h2>
                         <ul>
-                            <li>Scoring 9.46 CGPA , withheld 2nd position in the Branch in 1st sem</li>
-                            <li>Scoring 9.48 CGPA , withheld 2nd position in the Branch in 2nd sem</li>
-                            <li>Scoring 9.47 CGPA , withheld 1st position in the Branch in 3rd sem</li>
+                            <li>Scoring 9.48 CGPA , withheld 2nd position in the Branch in 1st sem</li>
+                            <li>Scoring 9.47 CGPA , withheld 2nd position in the Branch in 2nd sem</li>
+                            <li>Scoring 9.46 CGPA , withheld 1st position in the Branch in 3rd sem</li>
                         </ul>
                     </div>
                     </div>
