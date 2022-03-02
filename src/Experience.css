@@ -709,7 +709,7 @@
     }
     .exp1img{
         height: 40vh;
-        width: 15vw;
+        width: auto;
         border-radius: 30px;
     }
     .hh1img{
@@ -777,7 +777,7 @@
     }
     .vol1img{
         min-height: 35vh;
-        width: 15vw;
+        width: auto;
         border-radius: 30px;
     }
     .vol1desc{
