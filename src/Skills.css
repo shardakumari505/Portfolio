@@ -1,7 +1,7 @@
 
 @media only screen and (max-width:599px){
     .aboutpage{
-        height: 255vh;
+        height: auto;
         width: 100%;
         /* margin-top: 2vh; */
         /* position: absolute; */

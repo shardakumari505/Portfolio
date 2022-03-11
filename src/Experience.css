@@ -33,7 +33,7 @@
     .exp1{
         display: grid;
         grid-gap: 0vh;
-        min-height: 35vh;
+        height: auto;
         margin-top: 2vh;
         margin-left: 10vw;
         width: 80vw;
@@ -50,7 +50,7 @@
 
     }
     .exp1desc{
-        min-height: 35vh;
+        height: auto;
         width: 80vw;
         background-color: #272727;
         border-bottom-left-radius: 20px;
@@ -75,6 +75,58 @@
         font-size: 0.8rem;
     }
     .exp1exp{
+        /* width:80%;
+        margin-left: 10%; */
+        text-align: left;
+        color: aliceblue;
+        /* background-color: antiquewhite; */
+        font-size: 0.7rem;
+    }
+    .exp2{
+        display: grid;
+        grid-gap: 0vh;
+        min-height: 35vh;
+        margin-top: 2vh;
+        margin-left: 10vw;
+        width: 80vw;
+        transition: all 1s;
+    }
+    .exp2:hover{
+        transform: scale(1.1);
+    }
+    .exp2img{
+        display: none;
+        min-height: 35vh;
+        width: 80vw;
+        border-radius: 30px;
+
+    }
+    .exp2desc{
+        min-height: 35vh;
+        width: 80vw;
+        background-color: #272727;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .exp2role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.2rem;
+        margin-top: 2vh;
+    }
+    .exp2company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1rem;
+    }
+    .exp2date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .exp2exp{
         /* width:80%;
         margin-left: 10%; */
         text-align: left;
@@ -140,7 +192,7 @@
         color: aliceblue;
         font-size: 0.7rem;
     }
-    .vol2{
+    .vol2v{
         display: grid;
         grid-gap: 0px;
         width: 80vw;
@@ -149,17 +201,17 @@
         margin-left: 10vw;
         transition: all 1s;
     }
-    .vol2:hover{
+    .vol2v:hover{
         transform: scale(1.1);
     }
-    .vol2img{
+    .vol2vimg{
         display: none;
         min-height: 35vh;
         width: 15vw;
         border-radius: 30px;
     }
     
-    .vol2desc{
+    .vol2vdesc{
         /* min-height: 35vh; */
         width: 80vw;
         background-color: #272727;
@@ -168,23 +220,23 @@
         border-radius: 20px;
         box-shadow: 3px 3px 0px 3px black;
     }
-    .vol2role{
+    .vol2vrole{
         text-align: center;
         color: aliceblue;
         font-size: 1.2rem;
         margin-top: 2vh;
     }
-    .vol2company{
+    .vol2vcompany{
         text-align: center;
         color: #9B9595;
         font-size: 1rem;
     }
-    .vol2date{
+    .vol2vdate{
         text-align: center;
         color: #9B9595;
         font-size: 0.8rem;
     }
-    .vol2exp{
+    .vol2vexp{
         /* width: 80vw; */
         /* margin-left: 5%; */
         text-align: left;
@@ -315,7 +367,7 @@
     .aws{
         height: 20vh;
         width: 20vw;
-        object-fit: contain;
+        object-fit: cover;
         background-color: aliceblue;
         border: 2px solid aliceblue;
     }
@@ -352,6 +404,66 @@
         text-align: center;
         font-weight: bold;
         color: aliceblue;
+    }
+    .exp2{
+        display: flex;
+        min-height: 35vh;
+        margin-left: 10vw;
+        width: 80vw;
+        transition: all 1s;
+    }
+    .exp2:hover{
+        transform: scale(1.1);
+    }
+    .exp2img{
+        min-height: 35vh;
+        width: 15vw;
+        border-radius: 30px;
+    }
+    .hh2img{
+        min-height: 35vh;
+        width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol1imgpic{
+        min-height: auto;
+        width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .exp2desc{
+        min-height: 35vh;
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .exp2role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+    .exp2company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1rem;
+    }
+    .exp2date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .exp2exp{
+        width: 80%;
+        margin-left: 5%;
+        text-align: justify;
+        color: aliceblue;
+        /* background-color: antiquewhite; */
+        font-size: 0.7rem;
     }
     .exp1{
         display: flex;
@@ -467,7 +579,7 @@
         color: aliceblue;
         font-size: 0.7rem;
     }
-    .vol2{
+    .vol2v{
         display: flex;
         width: 80vw;
         min-height: 35vh;
@@ -475,10 +587,10 @@
         margin-left: 10vw;
         transition: all 1s;
     }
-    .vol2:hover{
+    .vol2v:hover{
         transform: scale(1.1);
     }
-    .vol2img{
+    .vol2vimg{
         min-height: 35vh;
         width: 15vw;
         border-radius: 30px;
@@ -492,7 +604,7 @@
         background-color: black;
         box-shadow: 3px 3px 3px 3px black;
     }
-    .vol2imgpic{
+    .vol2vimgpic{
         min-height: 35vh;
         width: 15vw;
         object-fit: fill;
@@ -509,7 +621,7 @@
         border-top-left-radius: 20px;
         box-shadow: 3px 3px 3px 3px black;
     }
-    .vol2desc{
+    .vol2vdesc{
         /* min-height: 35vh; */
         width: 60vw;
         background-color: #272727;
@@ -517,22 +629,22 @@
         border-bottom-right-radius: 20px;
         box-shadow: 3px 3px 0px 3px black;
     }
-    .vol2role{
+    .vol2vrole{
         text-align: center;
         color: aliceblue;
         font-size: 1.5rem;
     }
-    .vol2company{
+    .vol2vcompany{
         text-align: center;
         color: #9B9595;
         font-size: 1rem;
     }
-    .vol2date{
+    .vol2vdate{
         text-align: center;
         color: #9B9595;
         font-size: 0.8rem;
     }
-    .vol2exp{
+    .vol2vexp{
         width: 80%;
         margin-left: 5%;
         text-align: justify;
@@ -659,7 +771,7 @@
     .aws{
         height: 20vh;
         width: 20vw;
-        object-fit: contain;
+        object-fit: cover;
         background-color: aliceblue;
         border: 2px solid aliceblue;
     }
@@ -738,6 +850,7 @@
         text-align: center;
         color: aliceblue;
         font-size: 2.2rem;
+        margin-top: 2vh;
     }
     .exp1company{
         text-align: center;
@@ -750,6 +863,66 @@
         font-size: 0.8rem;
     }
     .exp1exp{
+        width: 80%;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 1.1rem;
+    }
+    .exp2{
+        display: flex;
+        min-height: 40vh;
+        margin-left: 10vw;
+        margin-top: 5vh;
+        width: 80vw;
+        transition: all 1s;
+    }
+    .exp2:hover{
+        transform: scale(1.1);
+    }
+    .exp2img{
+        height: 40vh;
+        width: auto;
+        border-radius: 30px;
+    }
+    .hh2img{
+        height: 40vh;
+        min-width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .vol2imgpic{
+        height: 50vh;
+        width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+    }
+    .exp2desc{
+        min-height: 35vh;
+        width: 60vw;
+        background-color: #272727;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 3px 3px 0px 3px black;
+    }
+    .exp2role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 2.2rem;
+        margin-top: 2vh;
+    }
+    .exp2company{
+        text-align: center;
+        color: #9B9595;
+        font-size: 1.2rem;
+    }
+    .exp2date{
+        text-align: center;
+        color: #9B9595;
+        font-size: 0.8rem;
+    }
+    .exp2exp{
         width: 80%;
         text-align: justify;
         color: aliceblue;
@@ -791,6 +964,7 @@
         text-align: center;
         color: aliceblue;
         font-size: 2.2rem;
+        margin-top: 2vh;
     }
     .vol1company{
         text-align: center;
@@ -808,7 +982,7 @@
         color: aliceblue;
         font-size: 1.1rem;
     }
-    .vol2{
+    .vol2v{
         display: flex;
         width: 80vw;
         min-height: 35vh;
@@ -816,10 +990,10 @@
         margin-left: 10vw;
         transition: all 1s;
     }
-    .vol2:hover{
+    .vol2v:hover{
         transform: scale(1.1);
     }
-    .vol2img{
+    .vol2vimg{
         min-height: 35vh;
         width: 15vw;
         border-radius: 30px;
@@ -833,7 +1007,7 @@
         background-color: black;
         box-shadow: 3px 3px 3px 3px black;
     }
-    .vol2imgpic{
+    .vol2vimgpic{
         min-height: 35vh;
         width: 15vw;
         object-fit: fill;
@@ -850,7 +1024,7 @@
         border-top-left-radius: 20px;
         box-shadow: 3px 3px 3px 3px black;
     }
-    .vol2desc{
+    .vol2vdesc{
         /* min-height: 35vh; */
         width: 60vw;
         background-color: #272727;
@@ -858,22 +1032,23 @@
         border-bottom-right-radius: 20px;
         box-shadow: 3px 3px 0px 3px black;
     }
-    .vol2role{
+    .vol2vrole{
         text-align: center;
         color: aliceblue;
         font-size: 2.2rem;
+        margin-top: 2vh;
     }
-    .vol2company{
+    .vol2vcompany{
         text-align: center;
         color: #9B9595;
         font-size: 1.2rem;
     }
-    .vol2date{
+    .vol2vdate{
         text-align: center;
         color: #9B9595;
         font-size: 0.8rem;
     }
-    .vol2exp{
+    .vol2vexp{
         width: 80%;
         text-align: justify;
         color: aliceblue;
@@ -999,8 +1174,8 @@
     .aws{
         height: 20vh;
         width: 20vw;
-        object-fit: contain;
-        background-color: aliceblue;
+        object-fit: cover;
+        background-color: transparent;
         border: 2px solid aliceblue;
     }
 }

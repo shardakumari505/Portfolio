@@ -1,5 +1,6 @@
 import React from 'react';
 import './Experience.css';
+import Vaguss from './vaguss.jpg';
 import Hh from './hh.jpg';
 import Is from './is.jfif';
 import Shaastra from './shaastra.jpg';
@@ -13,6 +14,7 @@ import Upflairs from './Upflairs.png';
 import Jigserate from './Jigserate.png';
 import Chimera from './chimera.png';
 import Aws from './aws.png';
+import Nitc from './nitc.jpg';
 import Navbar from './Navbar';
 import Navbarlargescreen from './Navbarlargescreen';
 
@@ -24,12 +26,23 @@ export default function Experience(){
             <div className='experiencepagehome'>
                 <div className='exptitle'>Work Experience</div>
                 <div className='exp1'>
-                    <div className='exp1img'><img className='hh1img' src={Hh} alt="Henry Harvin" /></div>
+                    <div className='exp1img'><img className='hh1img' src={Vaguss} alt="Henry Harvin" /></div>
                     <div className='exp1desc'>
-                        <div className='exp1role'>Analytics Intern</div>
-                        <div className='exp1company'>Henry Harvin Education</div>
-                        <div className='exp1date'>(Jun 2021 - Sept 2021)</div>
+                        <div className='exp1role'>Web Developer</div>
+                        <div className='exp1company'>Vaguss</div>
+                        <div className='exp1date'>(Jan 2022 - Present)</div>
                         <ol className='exp1exp'>
+                            <li>Developing user-friendly webpage using Javascript , CSS and React.js. Working mainly on the frontend part for attractive responses.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div className='exp2'>
+                    <div className='exp2img'><img className='hh2img' src={Hh} alt="Henry Harvin" /></div>
+                    <div className='exp2desc'>
+                        <div className='exp2role'>Analytics Intern</div>
+                        <div className='exp2company'>Henry Harvin Education</div>
+                        <div className='exp2date'>(Jun 2021 - Sept 2021)</div>
+                        <ol className='exp2exp'>
                             <li>Completed 4 projects in 3 months time with 2 machine learning models.Lead a team of 6 members in 4thproject and presented the project on 8thday to the mentor.</li>
                             <li>Data Collection using pandas , scrapy and beautiful soup , Data cleaning , Analysis , ML model(ARIMA) , Data Visulaization using powerBI and Report of theProject.</li>
                         </ol>
@@ -53,13 +66,13 @@ export default function Experience(){
                         </ul>
                     </div>
                 </div>
-                <div className='vol2'>
-                    <div className='vol2img'><img className='vol2imgpic' src={Is} alt="Henry Harvin" /></div>
-                    <div className='vol2desc'>
-                        <div className='vol2role'>Internshala Student Partner</div>
-                        <div className='vol2company'>Internshala</div>
-                        <div className='vol2date'>(Oct 2021 - Dec 2021)</div>
-                        <ul className='vol2exp'>
+                <div className='vol2v'>
+                    <div className='vol2vimg'><img className='vol2vimgpic' src={Is} alt="Henry Harvin" /></div>
+                    <div className='vol2vdesc'>
+                        <div className='vol2vrole'>Internshala Student Partner</div>
+                        <div className='vol2vcompany'>Internshala</div>
+                        <div className='vol2vdate'>(Oct 2021 - Dec 2021)</div>
+                        <ul className='vol2vexp'>
                             <li>Created awareness about Internshala internships and encouraged new students to register for Internshala.Participated in social media branding campaigns and learnt how to communicate for a brand online.</li>
                         </ul>
                     </div>
@@ -77,7 +90,7 @@ export default function Experience(){
                     <div className=''><img className="technosys" src={Technosys} alt="Technosys" /></div>
                     <div className=''><img className="tantrafiesta" src={Tantrafiesta} alt="Code-Fiesta" /></div>
                     <div className=''><img className="ideeavolt" src={Ideeavolt} alt="Code-Fiesta" /></div>
-                    <div className=''><img className="aws" src={Aws} alt="Code-Fiesta" /></div>
+                    <div className=''><img className="aws" src={Nitc} alt="Code-Fiesta" /></div>
                     <div className=''><img className="quintessential" src={Quintessential} alt="Quintessential" /></div>
                     <div className=''><img className="upflairs" src={Upflairs} alt="Code-Fiesta" /></div>
                     <div className=''><img className="jigserate" src={Jigserate} alt="Code-Fiesta" /></div>

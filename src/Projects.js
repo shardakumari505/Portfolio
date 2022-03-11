@@ -27,8 +27,8 @@ export default function Projects(){
                         <div className='crd2'>
                             <div className='caseira'><img className='caseiraimg' src={Webpage} alt="caseira" /></div>
                             <div className='tool'>ReactJS , NodeJS</div>
-                            <div className='nameproject1'>Tour and Travel Website</div>
-                            <div className='project1txt'>Developing a user-friendly webpage for a startup which will be used to locate the best of a place and includes many other features using HTML , CSS , React , Redux and Hooks and many other libraries.Working mainly on the frontend part for attractive and ease-acess responses.Project is under progress.</div>
+                            <div className='nameproject1'>E-Commerce Website</div>
+                            <div className='project1txt'>The main objective of the E-commerce application is to sell Eye glasses, lens and opticals and allows users to buy items by adding them to cart. It handles all the payments using stripe payments API. Tech-stack used are: ReactJS, Redux, Hooks, Sass, Git.</div>
                             
                         </div>
                         <div className='crd3'>

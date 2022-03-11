@@ -12,7 +12,7 @@ const Navbarlargescreen = () =>{
                 <div className=""><Link className="navlinkmenu" to="/skills">About</Link></div>
                 <div className=""><Link className="navlinkmenu" to="/Experience">Experience</Link></div>
                 <div className=""><Link className="navlinkmenu" to="/Projects">Projects</Link></div>
-                <a className="navlinkmenu" href="https://drive.google.com/file/d/1OSFtKkdcCQOy4anZuF1q07Cpo8xIpScg/view?usp=sharing"><div className="">Resume</div></a>
+                <a className="navlinkmenu" href="https://drive.google.com/file/d/1N13d4kJaZ4KFDQRxbqPCgkinuNVjtWzu/view?usp=sharing"><div className="">Resume</div></a>
                 
             </div>
 
