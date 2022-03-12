@@ -36,6 +36,17 @@ export default function Experience(){
                         </ol>
                     </div>
                 </div>
+                <div className='exp1'>
+                    <div className='exp1img'><img className='hh1img' src={Shaastra} alt="Henry Harvin" /></div>
+                    <div className='exp1desc'>
+                        <div className='exp1role'>Marketing Intern</div>
+                        <div className='exp1company'>Shaastra 2022 , IIT Madras</div>
+                        <div className='exp1date'>(Nov 2021 - Jan 2022)</div>
+                        <div className='exp3exp'>
+                            <div>Increased outreach of Shaastra , the annual technical fest of IIT Madras.</div>
+                        </div>
+                    </div>
+                </div>
                 <div className='exp2'>
                     <div className='exp2img'><img className='hh2img' src={Hh} alt="Henry Harvin" /></div>
                     <div className='exp2desc'>

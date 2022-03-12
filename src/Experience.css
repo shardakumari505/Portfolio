@@ -134,6 +134,14 @@
         /* background-color: antiquewhite; */
         font-size: 0.7rem;
     }
+    .exp3exp{
+        width: 80%;
+        margin-left: 10%;
+        text-align: left;
+        color: aliceblue;
+        font-size: 0.8rem;
+        margin-bottom: 2vh;
+    }
     .voltitle{
         font-size: 1.6rem;
         width: 80vw;
@@ -524,6 +532,14 @@
         color: aliceblue;
         /* background-color: antiquewhite; */
         font-size: 0.7rem;
+    }
+    .exp3exp{
+        width: 80%;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 1rem;
+        margin-top: 4vh;
+        margin-left: 10%;
     }
     .voltitle{
         font-size: 1.6rem;
@@ -927,6 +943,14 @@
         text-align: justify;
         color: aliceblue;
         font-size: 1.1rem;
+    }
+    .exp3exp{
+        width: 80%;
+        text-align: justify;
+        color: aliceblue;
+        font-size: 1.3rem;
+        margin-top: 4vh;
+        margin-left: 10%;
     }
     .voltitle{
         font-size: 2rem;
