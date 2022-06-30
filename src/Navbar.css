@@ -5,11 +5,11 @@
     
     .navbarpg{
         width: 100%;
-        background-color: aliceblue;
         /* background-image: url(peakpx3.jpg); */
         position: fixed;
         z-index: 999;
         height: 12vh;
+        display: flex;
     }
     .navbarforall{
         width: 85vw;
@@ -49,14 +49,15 @@
     }
     
 }
-
+@media only screen and (max-width:968px){
 .navbarpg{
     width: 100%;
-    background-color: #202020;
+    background-color: transparent;
     /* background-image: url(peakpx3.jpg); */
     position: fixed;
     z-index: 999;
     height: 12vh;
+    display: none;
 }
 .navbarforall{
     width: 85vw;
@@ -89,4 +90,9 @@
 .navlinkmenu{
     text-decoration: none;
     color: aliceblue;
+} 
+}
+.scroll {
+    background-color: #202020;
+    box-shadow: 0 0 25px 5px #000;
 }

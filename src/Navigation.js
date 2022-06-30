@@ -7,7 +7,7 @@ const Navigation = () => {
     return(
         <nav className={classes.Navigation}>
             <div className='namelogo'><Link className="navlinkmenu1" to="/">Sharda Kumari</Link></div>
-            <NavLinks />
+            {/* <NavLinks /> */}
         </nav>
         
     )

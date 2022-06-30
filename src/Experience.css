@@ -5,311 +5,231 @@
         height: auto;
         background-color: #1A1A1A;
     }
-    .navbarlargeexperience{
-        display: none;
-    }
     .navbarsmallexperience{
+        display:none;
+    }
+    .navbarlargeexperience{
         position: absolute;
         top: 0px;
     }
     .experiencepagehome{
         width: 100%;
         height: auto;
-        margin-top: 5vh;
         background-color: #1A1A1A;
         /* background-color: aqua; */
         display: grid;
-        grid-gap: 2vh;
+        grid-gap: 5vh;
+        margin-top: 4vh;
+        margin-bottom: 5vh;
     }
     .exptitle{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         width: 80vw;
-        /* margin-top: 10vh; */
+        margin-top: 10vh;
         margin-left: 10vw;
         text-align: center;
-        font-weight: 500;
         color: aliceblue;
     }
     .exp1{
-        display: grid;
-        grid-gap: 0vh;
+        display: flex;
+        align-items: center;
         height: auto;
-        margin-top: 2vh;
         margin-left: 10vw;
         width: 80vw;
         transition: all 1s;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+        background-color: #272727;
     }
     .exp1:hover{
         transform: scale(1.1);
     }
     .exp1img{
-        display: none;
-        min-height: 35vh;
-        width: 80vw;
+        min-height: 20vh;
+        object-fit: contain;
+        width: auto;
         border-radius: 30px;
-
+        display: none;
+    }
+    .hh1img{
+        background-color: #1A1A1A;
+        height: 20vh;
+        min-width: 10vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        display: none;
+        /* box-shadow: 3px 3px 3px 3px black; */
+    }
+    .certcontent{
+        display: flex;
+        align-items: center;
+        background-image: linear-gradient(135deg,#02aab0,#00cdac);
+        min-height: 50vh;
+        width: 80vw;
+        margin-left: 10vw;
+        border-radius: 20px;
+    }
+    .cert1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: middle;
+        min-height: 40vh;
+        width: 100vw;
+        margin-top: 5vh;
+    }
+    .cert1img{
+        height: 20vh;
+        min-width: 10vw;
+        background-color: transparent;
+        /* background-color: #272727; */
+        /* box-shadow: 3px 3px 3px 3px black; */
+    }
+    .cert1desc{
+        height: auto;
+        /* background-color: #272727; */
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        /* box-shadow: 3px 3px 0px 3px black; */
+    }
+    .cert1role{
+        text-align: center;
+        color: aliceblue;
+        /* font-size: 2.2vw; */
+        margin-top: 2vh;
+    }
+    .cert1company{
+        text-align: center;
+        color: #9B9595;
+        color: aliceblue;
+        /* font-size: 1.2rem; */
+    }
+    .cert1date{
+        text-align: center;
+        color: #9B9595;
+        color: aliceblue;
+        /* font-size: 0.8rem; */
+    }
+    .cert1exp{
+        text-align: justify;
+        color: aliceblue;
+        color: #1A1A1A;
+        width: 80%;
+        /* font-size: 1.1vw; */
+    }
+    .vol1imgpic{
+        height: 50vh;
+        width: 15vw;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
     }
     .exp1desc{
         height: auto;
-        width: 80vw;
-        background-color: #272727;
-        border-bottom-left-radius: 20px;
+        /* width: 60vw; */
+        /* background-color: #272727; */
+        border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
-        border-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
+        /* box-shadow: 3px 3px 0px 3px black; */
     }
     .exp1role{
         text-align: center;
         color: aliceblue;
-        font-size: 1.2rem;
+        /* font-size: 2.2vw; */
         margin-top: 2vh;
     }
     .exp1company{
         text-align: center;
         color: #9B9595;
-        font-size: 1rem;
+        /* font-size: 1.2rem; */
     }
     .exp1date{
         text-align: center;
         color: #9B9595;
-        font-size: 0.8rem;
+        /* font-size: 0.8rem; */
     }
     .exp1exp{
-        /* width:80%;
-        margin-left: 10%; */
-        text-align: left;
+        width: 80%;
+        text-align: justify;
         color: aliceblue;
-        /* background-color: antiquewhite; */
-        font-size: 0.7rem;
-    }
-    .exp2{
-        display: grid;
-        grid-gap: 0vh;
-        min-height: 35vh;
-        margin-top: 2vh;
-        margin-left: 10vw;
-        width: 80vw;
-        transition: all 1s;
-    }
-    .exp2:hover{
-        transform: scale(1.1);
-    }
-    .exp2img{
-        display: none;
-        min-height: 35vh;
-        width: 80vw;
-        border-radius: 30px;
-
-    }
-    .exp2desc{
-        min-height: 35vh;
-        width: 80vw;
-        background-color: #272727;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        border-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
-    }
-    .exp2role{
-        text-align: center;
-        color: aliceblue;
-        font-size: 1.2rem;
-        margin-top: 2vh;
-    }
-    .exp2company{
-        text-align: center;
-        color: #9B9595;
-        font-size: 1rem;
-    }
-    .exp2date{
-        text-align: center;
-        color: #9B9595;
-        font-size: 0.8rem;
-    }
-    .exp2exp{
-        /* width:80%;
-        margin-left: 10%; */
-        text-align: left;
-        color: aliceblue;
-        /* background-color: antiquewhite; */
-        font-size: 0.7rem;
+        /* font-size: 1.1vw; */
     }
     .exp3exp{
         width: 80%;
-        margin-left: 10%;
-        text-align: left;
+        text-align: justify;
         color: aliceblue;
-        font-size: 0.8rem;
-        margin-bottom: 2vh;
+        font-size: 1.1vw;
     }
     .voltitle{
-        font-size: 1.6rem;
+        font-size: 2rem;
         width: 80vw;
-        margin-top: 2vh;
+        margin-top: 5vh;
         margin-left: 10vw;
         text-align: center;
-        font-weight: 500;
+        font-weight: bold;
         color: aliceblue;
     }
+    .extracurriculum{
+        display: flex;
+    }
     .vol1{
-        display: grid;
-        grid-gap: 0px;
-        height: auto;
-        width: 80vw;
-        margin-top: 2vh;
-        margin-left: 10vw;
-        transition: all 1s;
-    }
-    .vol1:hover{
-        transform: scale(1.1);
-    }
-    .vol1img{
-        display: none;
+        display: flex;
+        align-items: center;
         min-height: 35vh;
-        width: 15vw;
-        border-radius: 30px;
+        width: 23vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        background-color: #272727;
+        box-shadow: 4px 8px 9px 5px #808080;
     }
     .vol1desc{
-        width: 80vw;
+        width: 60vw;
         background-color: #272727;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        border-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
     }
     .vol1role{
         text-align: center;
         color: aliceblue;
-        font-size: 1.2rem;
-        margin-top: 2vh;
+        font-size: 2.2vw;
+        /* margin-top: 2vh; */
     }
     .vol1company{
         text-align: center;
         color: #9B9595;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .vol1date{
         text-align: center;
         color: #9B9595;
         font-size: 0.8rem;
     }
-    .vol1exp{
-        /* width: 75%; */
-        /* margin-left: 5%; */
-        text-align: left;
-        color: aliceblue;
-        font-size: 0.7rem;
-    }
     .vol2v{
-        display: grid;
-        grid-gap: 0px;
-        width: 80vw;
-        height: auto;
-        margin-top: 5vh;
-        margin-left: 10vw;
-        transition: all 1s;
-    }
-    .vol2v:hover{
-        transform: scale(1.1);
-    }
-    .vol2vimg{
-        display: none;
+        display: flex;
+        align-items: center;
         min-height: 35vh;
-        width: 15vw;
-        border-radius: 30px;
-    }
-    
-    .vol2vdesc{
-        /* min-height: 35vh; */
-        width: 80vw;
-        background-color: #272727;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        border-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
-    }
-    .vol2vrole{
-        text-align: center;
-        color: aliceblue;
-        font-size: 1.2rem;
-        margin-top: 2vh;
-    }
-    .vol2vcompany{
-        text-align: center;
-        color: #9B9595;
-        font-size: 1rem;
-    }
-    .vol2vdate{
-        text-align: center;
-        color: #9B9595;
-        font-size: 0.8rem;
-    }
-    .vol2vexp{
-        /* width: 80vw; */
-        /* margin-left: 5%; */
-        text-align: left;
-        color: aliceblue;
-        font-size: 0.7rem;
-    }
-    .vol3{
-        display: grid;
-        grid-gap: 0px;
-        width: 80vw;
-        height: auto;
+        width: 23vw;
         margin-top: 5vh;
-        margin-left: 10vw;
-        transition: all 1s;
-    }
-    .vol3:hover{
-        transform: scale(1.1);
-    }
-    .vol3img{
-        display: none;
-        min-height: 35vh;
-        width: 15vw;
-        border-radius: 30px;
-    }
-    .vol3desc{
-        width: 80vw;
+        margin-left: 5vw;
         background-color: #272727;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        border-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
-    }
-    .vol3role{
-        text-align: center;
-        color: aliceblue;
-        font-size: 1.2rem;
-        margin-top: 2vh;
-    }
-    .vol3exp{
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-        width: 80%;
-        margin-left: 10%;
-        text-align: left;
-        color: aliceblue;
-        font-size: 0.8rem;
+        box-shadow: 4px 8px 9px 5px #808080;
     }
     .parttitle{
-        font-size: 1.6rem;
-        font-weight: 500;
+        font-size: 2rem;
+        font-weight: bold;
         width: 80vw;
-        margin-top: 2vh;
+        margin-top: 5vh;
         margin-left: 10vw;
         text-align: center;
         color: aliceblue;
     }
     .participationcrd{
         display: flex;
-        margin-top: 2vh;
+        margin-top: 5vh;
         margin-left: 20vw;
         height: 63vh;
         width: 61vw;
         transition: all 1s;
         background-color: #272727;
-
+        border-radius: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         /* box-shadow: 3px 3px 0px 3px black; */
@@ -376,7 +296,7 @@
         height: 20vh;
         width: 20vw;
         object-fit: cover;
-        background-color: aliceblue;
+        background-color: transparent;
         border: 2px solid aliceblue;
     }
 }
@@ -388,161 +308,164 @@
         height: auto;
         background-color: #1A1A1A;
     }
-    .navbarlargeexperience{
-        display: none;
-    }
     .navbarsmallexperience{
+        display:none;
+    }
+    .navbarlargeexperience{
         position: absolute;
         top: 0px;
     }
     .experiencepagehome{
         width: 100%;
         height: auto;
-        margin-top: 4vh;
         background-color: #1A1A1A;
         /* background-color: aqua; */
         display: grid;
         grid-gap: 5vh;
+        margin-top: 4vh;
+        margin-bottom: 5vh;
     }
     .exptitle{
         font-size: 1.6rem;
         width: 80vw;
-        margin-top: 5vh;
+        margin-top: 10vh;
         margin-left: 10vw;
         text-align: center;
         font-weight: bold;
         color: aliceblue;
     }
-    .exp2{
-        display: flex;
-        min-height: 35vh;
-        margin-left: 10vw;
-        width: 80vw;
-        transition: all 1s;
-    }
-    .exp2:hover{
-        transform: scale(1.1);
-    }
-    .exp2img{
-        min-height: 35vh;
-        width: 15vw;
-        border-radius: 30px;
-    }
-    .hh2img{
-        min-height: 35vh;
-        width: 15vw;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .vol1imgpic{
-        min-height: auto;
-        width: 15vw;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .exp2desc{
-        min-height: 35vh;
-        width: 60vw;
-        background-color: #272727;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
-    }
-    .exp2role{
-        text-align: center;
-        color: aliceblue;
-        font-size: 1.5rem;
-    }
-    .exp2company{
-        text-align: center;
-        color: #9B9595;
-        font-size: 1rem;
-    }
-    .exp2date{
-        text-align: center;
-        color: #9B9595;
-        font-size: 0.8rem;
-    }
-    .exp2exp{
-        width: 80%;
-        margin-left: 5%;
-        text-align: justify;
-        color: aliceblue;
-        /* background-color: antiquewhite; */
-        font-size: 0.7rem;
-    }
     .exp1{
         display: flex;
-        min-height: 35vh;
+        align-items: center;
+        min-height: 40vh;
         margin-left: 10vw;
         width: 80vw;
         transition: all 1s;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+        /* background-color: #272727; */
     }
     .exp1:hover{
         transform: scale(1.1);
     }
     .exp1img{
-        min-height: 35vh;
-        width: 15vw;
+        min-height: 40vh;
+        object-fit: contain;
+        width: auto;
         border-radius: 30px;
     }
     .hh1img{
-        min-height: 35vh;
-        width: 15vw;
+        background-color: #1A1A1A;
+        height: 40vh;
+        min-width: 15vw;
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        /* box-shadow: 3px 3px 3px 3px black; */
+    }
+    .certcontent{
+        display: flex;
+        align-items: center;
+        background-image: linear-gradient(135deg,#02aab0,#00cdac);
+        min-height: 50vh;
+        width: 80vw;
+        margin-left: 10vw;
+        border-radius: 20px;
+    }
+    .cert1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: middle;
+        min-height: 40vh;
+        width: 80vw;
+        margin-top: 5vh;
+    }
+    .cert1img{
+        height: 30vh;
+        min-width: 15vw;
+        background-color: transparent;
+        /* background-color: #272727; */
+        /* box-shadow: 3px 3px 3px 3px black; */
+    }
+    .cert1desc{
+        height: auto;
+        width: 60vw;
+        /* background-color: #272727; */
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        /* box-shadow: 3px 3px 0px 3px black; */
+    }
+    .cert1role{
+        text-align: center;
+        color: aliceblue;
+        /* font-size: 2.2vw; */
+        margin-top: 2vh;
+    }
+    .cert1company{
+        text-align: center;
+        color: #9B9595;
+        color: aliceblue;
+        /* font-size: 1.2rem; */
+    }
+    .cert1date{
+        text-align: center;
+        color: #9B9595;
+        color: aliceblue;
+        /* font-size: 0.8rem; */
+    }
+    .cert1exp{
+        text-align: justify;
+        color: aliceblue;
+        color: #1A1A1A;
+        /* font-size: 1.1vw; */
     }
     .vol1imgpic{
-        min-height: auto;
+        height: 50vh;
         width: 15vw;
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
         box-shadow: 3px 3px 3px 3px black;
     }
     .exp1desc{
-        min-height: 35vh;
+        height: auto;
         width: 60vw;
-        background-color: #272727;
+        /* background-color: #272727; */
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
+        /* box-shadow: 3px 3px 0px 3px black; */
     }
     .exp1role{
         text-align: center;
         color: aliceblue;
-        font-size: 1.5rem;
+        /* font-size: 2.2vw; */
+        margin-top: 2vh;
     }
     .exp1company{
         text-align: center;
         color: #9B9595;
-        font-size: 1rem;
+        /* font-size: 1.2rem; */
     }
     .exp1date{
         text-align: center;
         color: #9B9595;
-        font-size: 0.8rem;
+        /* font-size: 0.8rem; */
     }
     .exp1exp{
         width: 80%;
-        margin-left: 5%;
         text-align: justify;
         color: aliceblue;
-        /* background-color: antiquewhite; */
-        font-size: 0.7rem;
+        /* font-size: 1.1vw; */
     }
     .exp3exp{
         width: 80%;
         text-align: justify;
         color: aliceblue;
-        font-size: 1rem;
-        margin-top: 4vh;
-        margin-left: 10%;
+        /* font-size: 1.1vw; */
     }
     .voltitle{
-        font-size: 1.6rem;
+        font-size: 2rem;
         width: 80vw;
         margin-top: 5vh;
         margin-left: 10vw;
@@ -550,162 +473,51 @@
         font-weight: bold;
         color: aliceblue;
     }
+    .extracurriculum{
+        display: flex;
+    }
     .vol1{
         display: flex;
+        align-items: center;
         min-height: 35vh;
-        width: 80vw;
+        width: 23vw;
         margin-top: 5vh;
         margin-left: 10vw;
-        transition: all 1s;
-    }
-    .vol1:hover{
-        transform: scale(1.1);
-    }
-    .vol1img{
-        min-height: 35vh;
-        width: 15vw;
-        border-radius: 30px;
+        background-color: #272727;
+        box-shadow: 4px 8px 9px 5px #808080;
     }
     .vol1desc{
         width: 60vw;
         background-color: #272727;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
     }
     .vol1role{
         text-align: center;
         color: aliceblue;
-        font-size: 1.5rem;
+        font-size: 2.2vw;
+        /* margin-top: 2vh; */
     }
     .vol1company{
         text-align: center;
         color: #9B9595;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .vol1date{
         text-align: center;
         color: #9B9595;
         font-size: 0.8rem;
     }
-    .vol1exp{
-        width: 80%;
-        margin-left: 5%;
-        text-align: justify;
-        color: aliceblue;
-        font-size: 0.7rem;
-    }
     .vol2v{
         display: flex;
-        width: 80vw;
+        align-items: center;
         min-height: 35vh;
+        width: 23vw;
         margin-top: 5vh;
-        margin-left: 10vw;
-        transition: all 1s;
-    }
-    .vol2v:hover{
-        transform: scale(1.1);
-    }
-    .vol2vimg{
-        min-height: 35vh;
-        width: 15vw;
-        border-radius: 30px;
-    }
-    .vol1imgpic{
-        min-height: 35vh;
-        width: 15vw;
-        object-fit: contain;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        background-color: black;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .vol2vimgpic{
-        min-height: 35vh;
-        width: 15vw;
-        object-fit: fill;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .vol3imgpic{
-        min-height: 35vh;
-        width: 15vw;
-        object-fit: contain;
-        background-color: black;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .vol2vdesc{
-        /* min-height: 35vh; */
-        width: 60vw;
+        margin-left: 5vw;
         background-color: #272727;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
-    }
-    .vol2vrole{
-        text-align: center;
-        color: aliceblue;
-        font-size: 1.5rem;
-    }
-    .vol2vcompany{
-        text-align: center;
-        color: #9B9595;
-        font-size: 1rem;
-    }
-    .vol2vdate{
-        text-align: center;
-        color: #9B9595;
-        font-size: 0.8rem;
-    }
-    .vol2vexp{
-        width: 80%;
-        margin-left: 5%;
-        text-align: justify;
-        color: aliceblue;
-        font-size: 0.7rem;
-    }
-    .vol3{
-        display: flex;
-        width: 80vw;
-        min-height: 35vh;
-        margin-top: 5vh;
-        margin-left: 10vw;
-        transition: all 1s;
-    }
-    .vol3:hover{
-        transform: scale(1.1);
-    }
-    .vol3img{
-        min-height: 35vh;
-        width: 15vw;
-        border-radius: 30px;
-    }
-    .vol3desc{
-        width: 60vw;
-        background-color: #272727;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
-    }
-    .vol3role{
-        text-align: center;
-        color: aliceblue;
-        font-size: 1.5rem;
-        margin-top: 2vh;
-    }
-    .vol3exp{
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 5vh;
-        text-align: justify;
-        color: aliceblue;
-        font-size: 0.8rem;
+        box-shadow: 4px 8px 9px 5px #808080;
     }
     .parttitle{
-        font-size: 1.6rem;
+        font-size: 2rem;
         font-weight: bold;
         width: 80vw;
         margin-top: 5vh;
@@ -788,7 +600,7 @@
         height: 20vh;
         width: 20vw;
         object-fit: cover;
-        background-color: aliceblue;
+        background-color: transparent;
         border: 2px solid aliceblue;
     }
 }    
@@ -827,25 +639,88 @@
     }
     .exp1{
         display: flex;
+        align-items: center;
         min-height: 40vh;
         margin-left: 10vw;
         width: 80vw;
         transition: all 1s;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px black;
+        background-color: #272727;
     }
     .exp1:hover{
         transform: scale(1.1);
     }
     .exp1img{
-        height: 40vh;
+        min-height: 40vh;
+        object-fit: contain;
         width: auto;
         border-radius: 30px;
     }
     .hh1img{
+        background-color: #1A1A1A;
         height: 40vh;
         min-width: 15vw;
         border-bottom-left-radius: 20px;
         border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
+        /* box-shadow: 3px 3px 3px 3px black; */
+    }
+    .certcontent{
+        display: flex;
+        align-items: center;
+        background-image: linear-gradient(135deg,#02aab0,#00cdac);
+        min-height: 50vh;
+        width: 80vw;
+        margin-left: 10vw;
+        border-radius: 20px;
+    }
+    .cert1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: middle;
+        min-height: 40vh;
+        width: 80vw;
+        margin-top: 5vh;
+    }
+    .cert1img{
+        height: 30vh;
+        min-width: 15vw;
+        background-color: transparent;
+        /* background-color: #272727; */
+        /* box-shadow: 3px 3px 3px 3px black; */
+    }
+    .cert1desc{
+        height: auto;
+        width: 60vw;
+        /* background-color: #272727; */
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        /* box-shadow: 3px 3px 0px 3px black; */
+    }
+    .cert1role{
+        text-align: center;
+        color: aliceblue;
+        font-size: 2.2vw;
+        margin-top: 2vh;
+    }
+    .cert1company{
+        text-align: center;
+        color: #9B9595;
+        color: aliceblue;
+        font-size: 1.2rem;
+    }
+    .cert1date{
+        text-align: center;
+        color: #9B9595;
+        color: aliceblue;
+        font-size: 0.8rem;
+    }
+    .cert1exp{
+        text-align: justify;
+        color: aliceblue;
+        color: #1A1A1A;
+        font-size: 1.1vw;
     }
     .vol1imgpic{
         height: 50vh;
@@ -855,17 +730,17 @@
         box-shadow: 3px 3px 3px 3px black;
     }
     .exp1desc{
-        min-height: 35vh;
+        height: 40vh;
         width: 60vw;
-        background-color: #272727;
+        /* background-color: #272727; */
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
+        /* box-shadow: 3px 3px 0px 3px black; */
     }
     .exp1role{
         text-align: center;
         color: aliceblue;
-        font-size: 2.2rem;
+        font-size: 2.2vw;
         margin-top: 2vh;
     }
     .exp1company{
@@ -882,75 +757,13 @@
         width: 80%;
         text-align: justify;
         color: aliceblue;
-        font-size: 1.1rem;
-    }
-    .exp2{
-        display: flex;
-        min-height: 40vh;
-        margin-left: 10vw;
-        margin-top: 5vh;
-        width: 80vw;
-        transition: all 1s;
-    }
-    .exp2:hover{
-        transform: scale(1.1);
-    }
-    .exp2img{
-        height: 40vh;
-        width: auto;
-        border-radius: 30px;
-    }
-    .hh2img{
-        height: 40vh;
-        min-width: 15vw;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .vol2imgpic{
-        height: 50vh;
-        width: 15vw;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .exp2desc{
-        min-height: 35vh;
-        width: 60vw;
-        background-color: #272727;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
-    }
-    .exp2role{
-        text-align: center;
-        color: aliceblue;
-        font-size: 2.2rem;
-        margin-top: 2vh;
-    }
-    .exp2company{
-        text-align: center;
-        color: #9B9595;
-        font-size: 1.2rem;
-    }
-    .exp2date{
-        text-align: center;
-        color: #9B9595;
-        font-size: 0.8rem;
-    }
-    .exp2exp{
-        width: 80%;
-        text-align: justify;
-        color: aliceblue;
-        font-size: 1.1rem;
+        font-size: 1.1vw;
     }
     .exp3exp{
         width: 80%;
         text-align: justify;
         color: aliceblue;
-        font-size: 1.3rem;
-        margin-top: 4vh;
-        margin-left: 10%;
+        font-size: 1.1vw;
     }
     .voltitle{
         font-size: 2rem;
@@ -961,34 +774,28 @@
         font-weight: bold;
         color: aliceblue;
     }
+    .extracurriculum{
+        display: flex;
+    }
     .vol1{
         display: flex;
+        align-items: center;
         min-height: 35vh;
-        width: 80vw;
+        width: 23vw;
         margin-top: 5vh;
         margin-left: 10vw;
-        transition: all 1s;
-    }
-    .vol1:hover{
-        transform: scale(1.1);
-    }
-    .vol1img{
-        min-height: 35vh;
-        width: auto;
-        border-radius: 30px;
+        background-color: #272727;
+        box-shadow: 4px 8px 9px 5px #808080;
     }
     .vol1desc{
         width: 60vw;
         background-color: #272727;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
     }
     .vol1role{
         text-align: center;
         color: aliceblue;
-        font-size: 2.2rem;
-        margin-top: 2vh;
+        font-size: 2.2vw;
+        /* margin-top: 2vh; */
     }
     .vol1company{
         text-align: center;
@@ -1000,120 +807,15 @@
         color: #9B9595;
         font-size: 0.8rem;
     }
-    .vol1exp{
-        width: 80%;
-        text-align: justify;
-        color: aliceblue;
-        font-size: 1.1rem;
-    }
     .vol2v{
         display: flex;
-        width: 80vw;
+        align-items: center;
         min-height: 35vh;
+        width: 23vw;
         margin-top: 5vh;
-        margin-left: 10vw;
-        transition: all 1s;
-    }
-    .vol2v:hover{
-        transform: scale(1.1);
-    }
-    .vol2vimg{
-        min-height: 35vh;
-        width: 15vw;
-        border-radius: 30px;
-    }
-    .vol1imgpic{
-        min-height: 35vh;
-        width: 15vw;
-        object-fit: contain;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        background-color: black;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .vol2vimgpic{
-        min-height: 35vh;
-        width: 15vw;
-        object-fit: fill;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .vol3imgpic{
-        min-height: 35vh;
-        width: 15vw;
-        object-fit: contain;
-        background-color: black;
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        box-shadow: 3px 3px 3px 3px black;
-    }
-    .vol2vdesc{
-        /* min-height: 35vh; */
-        width: 60vw;
+        margin-left: 5vw;
         background-color: #272727;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
-    }
-    .vol2vrole{
-        text-align: center;
-        color: aliceblue;
-        font-size: 2.2rem;
-        margin-top: 2vh;
-    }
-    .vol2vcompany{
-        text-align: center;
-        color: #9B9595;
-        font-size: 1.2rem;
-    }
-    .vol2vdate{
-        text-align: center;
-        color: #9B9595;
-        font-size: 0.8rem;
-    }
-    .vol2vexp{
-        width: 80%;
-        text-align: justify;
-        color: aliceblue;
-        font-size: 1.1rem;
-    }
-    .vol3{
-        display: flex;
-        width: 80vw;
-        min-height: 35vh;
-        margin-top: 5vh;
-        margin-left: 10vw;
-        transition: all 1s;
-    }
-    .vol3:hover{
-        transform: scale(1.1);
-    }
-    .vol3img{
-        min-height: 35vh;
-        width: 15vw;
-        border-radius: 30px;
-    }
-    .vol3desc{
-        width: 60vw;
-        background-color: #272727;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 3px 3px 0px 3px black;
-    }
-    .vol3role{
-        text-align: center;
-        color: aliceblue;
-        font-size: 2.2rem;
-        margin-top: 2vh;
-    }
-    .vol3exp{
-        width: 70%;
-        margin-left: 15%;
-        margin-top: 5vh;
-        text-align: justify;
-        color: aliceblue;
-        font-size: 1.5rem;
+        box-shadow: 4px 8px 9px 5px #808080;
     }
     .parttitle{
         font-size: 2rem;

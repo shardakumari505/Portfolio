@@ -2,20 +2,20 @@ import React from 'react';
 import './Projects.css';
 import Navbar from './Navbar';
 import Navbarlargescreen from './Navbarlargescreen';
-import Caseira from './caseira.jpg';
-import Webpage from './webpage.jpg';
-import Chatbot from './chatbot.jpg';
-import Concrete from './Concrete.jpg';
-import Covid from './Covid.png';
-import Heart from './heart.jpg'
-import Linkicon from './linkicon.png';
+import Caseira from './assets/caseira.jpg';
+import Webpage from './assets/webpage.jpg';
+import Chatbot from './assets/chatbot.jpg';
+import Concrete from './assets/Concrete.jpg';
+import Covid from './assets/Covid.png';
+import Heart from './assets/heart.jpg'
+import Linkicon from './assets/linkicon.png';
 
 export default function Projects(){
     return(<div className='projectpg'>
                 <div className='navbarsmallprojects'><Navbar /></div>
                 <div className='navbarlargeprojects'><Navbarlargescreen /></div>
                 <div className='projectmainpage'>
-                    <div className='projecttitle'>Projects</div>
+                    <div className='projecttitle'>PROJECTS</div>
                     <div className='projectscards1'>
                         <div className='crd1'>
                             <div className='caseira'><img className='caseiraimg' src={Caseira} alt="caseira" /></div>
@@ -24,11 +24,18 @@ export default function Projects(){
                             <div className='project1txt'>Created an AI assistant that uses speech recognition and responses accordingly. Used different Python libraries to access wikipedia , calender , browser , etc.</div>
                             <a href="https://github.com/shardakumari505/caseira"><div className='icondiv'><img className='icon' src={Linkicon} alt="link" /></div></a>
                         </div>
-                        <div className='crd2'>
+                        {/* <div className='crd2'>
                             <div className='caseira'><img className='caseiraimg' src={Webpage} alt="caseira" /></div>
                             <div className='tool'>ReactJS , NodeJS</div>
                             <div className='nameproject1'>E-Commerce Website</div>
                             <div className='project1txt'>The main objective of the E-commerce application is to sell Eye glasses, lens and opticals and allows users to buy items by adding them to cart. It handles all the payments using stripe payments API. Tech-stack used are: ReactJS, Redux, Hooks, Sass, Git.</div>
+                            
+                        </div> */}
+                        <div className='crd1b'>
+                            <div className='caseira'><img className='caseiraimg' src={Concrete} alt="caseira" /></div>
+                            <div className='tool'>Python</div>
+                            <div className='nameproject1'>Concrete Analysis</div>
+                            <div className='project1txt'>Analysed mechanical and durability behavior of fiber reinforced concrete , incorporating different types of natural , pp and steel fibers under cyclic exposure of heat-cool and wet-dry. Used matplotlib and seaborn mainly for visulaization.</div>
                             
                         </div>
                         <div className='crd3'>
@@ -40,13 +47,7 @@ export default function Projects(){
                         </div>
                     </div>
                     <div className='projectscards2'>
-                        <div className='crd1b'>
-                            <div className='caseira'><img className='caseiraimg' src={Concrete} alt="caseira" /></div>
-                            <div className='tool'>Python</div>
-                            <div className='nameproject1'>Concrete Analysis</div>
-                            <div className='project1txt'>Analysed mechanical and durability behavior of fiber reinforced concrete , incorporating different types of natural , pp and steel fibers under cyclic exposure of heat-cool and wet-dry. Used matplotlib and seaborn mainly for visulaization.</div>
-                            
-                        </div>
+                        
                         <div className='crd2b'>
                             <div className='caseira'><img className='caseiraimg' src={Covid} alt="caseira" /></div>
                             <div className='tool'>Python</div>

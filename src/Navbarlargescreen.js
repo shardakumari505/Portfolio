@@ -3,8 +3,25 @@ import './Navbar.css';
 import { Link } from "react-router-dom";
 
 
-const Navbarlargescreen = () =>{
+class Navbarlargescreen extends React.Component{
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll = () => {
+    if (window.scrollY > 20) {
+      document.querySelector(".navbarpg").className = "navbarpg scroll";
+    } else {
+      document.querySelector(".navbarpg").className = "navbarpg";
+    }
+  };
      
+  render(){
     return(<div className="navbarpg">
         <div className="navbarforall">
             <div className="namelogo"><Link className="navlinkmenu" to="/">Sharda Kumari</Link></div>
@@ -12,13 +29,15 @@ const Navbarlargescreen = () =>{
                 <div className=""><Link className="navlinkmenu" to="/skills">About</Link></div>
                 <div className=""><Link className="navlinkmenu" to="/Experience">Experience</Link></div>
                 <div className=""><Link className="navlinkmenu" to="/Projects">Projects</Link></div>
-                <a className="navlinkmenu" href="https://drive.google.com/file/d/1N13d4kJaZ4KFDQRxbqPCgkinuNVjtWzu/view?usp=sharing"><div className="">Resume</div></a>
+                <a className="navlinkmenu" href="https://drive.google.com/file/d/1xEhQtnJ0aV3VZ1zXZGi3_UTVUVkPoeyH/view?usp=sharing"><div className="">Resume</div></a>
                 
             </div>
 
         </div>
         
     </div>)
+  }  
+  
     
 }
 

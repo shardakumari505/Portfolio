@@ -26,6 +26,9 @@
         grid-gap: 2vh;
     }
     .educationtitle{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
         color: aliceblue;
         font-weight: 500;
         font-size: 1.6rem;
@@ -103,6 +106,9 @@
         color: aliceblue;
     }
     .skilltitle{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
         font-size: 1.6rem;
         margin-bottom: 8vh;
         font-weight: 500;
@@ -183,6 +189,14 @@
         margin: 2vh 0vh 2vh 0vh;
         border-radius: 50px;
         background-image: linear-gradient(to right ,aliceblue 10%, #343a40 20%);
+        position: relative;
+    }
+    .langcskex{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#17A2B8 10%, #343a40 20%);
         position: relative;
     }
     .skillright{
@@ -258,7 +272,7 @@
 
 @media (min-width:600px) and (max-width:968px){
     .aboutpage{
-        height: 200vh;
+        height: auto;
         width: 100%;
         margin-top: 5vh;
         /* position: absolute; */
@@ -287,6 +301,9 @@
         grid-gap: 2vh;
     }
     .educationtitle{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
         color: aliceblue;
         font-weight: bold;
         font-size: 1.6rem;
@@ -362,6 +379,9 @@
         color: aliceblue;
     }
     .skilltitle{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
         font-size: 1.6rem;
         margin-bottom: 8vh;
         font-weight: bold;
@@ -444,6 +464,14 @@
         background-image: linear-gradient(to right ,aliceblue 10%, #343a40 20%);
         position: relative;
     }
+    .langcskex{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#17A2B8 10%, #343a40 20%);
+        position: relative;
+    }
     .skillright{
         display: right;
         width: 60%;
@@ -516,7 +544,7 @@
 
 @media only screen and (min-width:969px){
     .aboutpage{
-        height: 225vh;
+        height: auto;
         width: 100%;
         margin-top: 5vh;
         /* position: absolute; */
@@ -541,6 +569,9 @@
         grid-gap: 2vh;
     }
     .educationtitle{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
         color: aliceblue;
         font-weight: bold;
         font-size: 2rem;
@@ -620,6 +651,9 @@
         margin-bottom: 8vh;
         font-weight: bold;
         margin-top: 8vh;
+        width: 80vw;
+        align-items: center;
+        text-align: center;
     }
     .skillleftright{
         display: flex;
@@ -696,6 +730,14 @@
         margin: 2vh 0vh 2vh 0vh;
         border-radius: 50px;
         background-image: linear-gradient(to right ,aliceblue 10%, #343a40 20%);
+        position: relative;
+    }
+    .langcskex{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#17A2B8 10%, #343a40 20%);
         position: relative;
     }
     .skillright{
