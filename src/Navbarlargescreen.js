@@ -29,7 +29,7 @@ class Navbarlargescreen extends React.Component{
                 <div className=""><Link className="navlinkmenu" to="/skills">About</Link></div>
                 <div className=""><Link className="navlinkmenu" to="/Experience">Experience</Link></div>
                 <div className=""><Link className="navlinkmenu" to="/Projects">Projects</Link></div>
-                <a className="navlinkmenu" href="https://drive.google.com/file/d/1fDib83skzYt67N3OIOLy7zcZyeW7ZVP8/view?usp=sharing"><div className="">Resume</div></a>
+                <a className="navlinkmenu" href="https://drive.google.com/file/d/1h7IimzIJFCmnvH9YcQqW1B-PDQDAIIjS/view?usp=sharing"><div className="">Resume</div></a>
                 
             </div>
 
