@@ -1,0 +1,9 @@
+[dist]	
+    command = "npm build"
+    build = "build"
+
+[dist.environment]	
+    NODE_ENV = "development"	
+
+[context.production.environment]	
+    NODE_ENV = "production"

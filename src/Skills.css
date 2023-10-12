@@ -1,0 +1,837 @@
+
+@media only screen and (max-width:599px){
+    .aboutpage{
+        height: auto;
+        width: 100%;
+        /* margin-top: 2vh; */
+        /* position: absolute; */
+        /* margin-bottom: 20vh; */
+        background-color: #1A1A1A;
+        /* background-color: burlywood; */
+    }
+    .navbarlargeskill{
+        display: none;
+    }
+    .navbarsmallskill{
+        position: absolute;
+        top: 0px;
+    }
+    .educardall{
+        height: auto;
+        width: auto;
+        /* margin-top: 200vh; */
+    }
+    .educationdata{
+        display: grid;
+        grid-gap: 2vh;
+    }
+    .educationtitle{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+        font-weight: 500;
+        font-size: 1.6rem;
+        margin-top: 10vh;
+        margin-left: 10vw;
+    }
+    .linebreak{
+        height: 0.25vh;
+        border-radius: 20px;
+        width: 65%;
+        margin-left: 10vw;
+        transition: width 1s;
+        background-color: gray;
+    }
+    /* .linebreak:hover{
+        width: 85%;
+        background-color: blue;
+    } */
+    .edu1{
+        display: flex;
+        height: auto;
+        width: 85%;
+        margin-left: 10%;
+        background-color: transparent;
+    }
+    .educard h1{
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    .educard h2{
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    .educard ul{
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 200;
+    }
+    .edu1:hover ~ .linebreak{
+        width: 85%;
+        background-color: blue;
+    }
+    .collegeimg{
+        height: 20vh;
+        /* width: 10vw; */
+        margin-top: 3vh;
+        margin-right: 3vw;
+    }
+    .collegeimgpic{
+        height: auto;
+        width: 14vw;
+        /* background-color: green; */
+        object-fit: contain;
+    }
+    .schl2img{
+        height: 20vh;
+        margin-right: 3vw;
+        margin-top: 3vh;
+    }
+    .schl2imgpic{
+        height: auto;
+        width: 20vw;
+        /* background-color: #17A2B8; */
+        object-fit: contain;
+    }
+    .skilldata{
+        display: grid;
+        width: 85%;
+        height: auto;
+        margin-left: 10%;
+        /* margin-bottom: 10vh; */
+        /* margin-top: 25vh; */
+        color: aliceblue;
+    }
+    .skilltitle{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-bottom: 8vh;
+        font-weight: 500;
+        margin-top: 8vh;
+    }
+    .skillleftright{
+        display: grid;
+        width: 90%;
+        height: auto;
+        /* background-color: green; */
+    }
+    .skillleft{
+        display: grid;
+        width: 90%;
+    }
+    .lang{
+        font-size: 1rem;
+    }
+    .langcskc{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#28A745 10%, #343a40 20%);
+        position: relative;
+    }
+    .langcskjava{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#6F33FF 50%, #343a40 20%);
+        position: relative;
+    }
+    .langcskpy{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#17A2B8 40%, #343a40 20%);
+        position: relative;
+    }
+    .langcskhtml{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#DC3545 50%, #343a40 20%);
+        position: relative;
+    }
+    .langcskcss{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#70876D 60%, #343a40 20%);
+        position: relative;
+    }
+    .langcskjs{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#28A745 40%, #343a40 20%);
+        position: relative;
+    }
+    .langcskboot{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#FFEC33 10%, #343a40 20%);
+        position: relative;
+    }
+    .langcskgit{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,aliceblue 10%, #343a40 20%);
+        position: relative;
+    }
+    .langcskex{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#17A2B8 10%, #343a40 20%);
+        position: relative;
+    }
+    .skillright{
+        display: right;
+        width: 90%;
+    }
+    .langcskreact{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#70876D 80%, #343a40 20%);
+        position: relative;
+    }
+    .langcskmongo{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#70876D 20%, #343a40 20%);
+        position: relative;
+    }
+    .langcskredux{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,aliceblue 2%, #343a40 20%);
+        position: relative;
+    }
+    .langcskhooks{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#6F33FF 2%, #343a40 20%);
+        position: relative;
+    }
+    .langcsknode{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#FFC107 70%, #343a40 20%);
+        position: relative;
+    }
+    .langcskpi{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#DC3545 40%, #343a40 20%);
+        position: relative;
+    }
+    .langcskmi{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,aliceblue 60%, #343a40 20%);
+        position: relative;
+    }
+    .langcskard{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#28A745 20%, #343a40 20%);
+        position: relative;
+    }
+    .langcskprt{
+        width: 90%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#6F33FF 20%, #343a40 20%);
+        position: relative;
+    }
+}
+
+
+@media (min-width:600px) and (max-width:968px){
+    .aboutpage{
+        height: auto;
+        width: 100%;
+        margin-top: 5vh;
+        /* position: absolute; */
+        /* margin-bottom: 20vh; */
+        background-color: #1A1A1A;
+        /* background-color: burlywood; */
+    }
+    .navbarlargeskill{
+        display: none;
+    }
+    .navbarsmallskill{
+        position: absolute;
+        top: 0px;
+    }
+    .profiletop{
+        height: 100vh;
+        width: 100%;
+    }
+    .educardall{
+        height: auto;
+        width: auto;
+        /* margin-top: 200vh; */
+    }
+    .educationdata{
+        display: grid;
+        grid-gap: 2vh;
+    }
+    .educationtitle{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 1.6rem;
+        margin-top: 10vh;
+        margin-left: 10vw;
+    }
+    .linebreak{
+        height: 0.25vh;
+        border-radius: 20px;
+        width: 65%;
+        margin-left: 10vw;
+        transition: width 1s;
+        background-color: gray;
+    }
+    /* .linebreak:hover{
+        width: 85%;
+        background-color: blue;
+    } */
+    .edu1{
+        display: flex;
+        height: auto;
+        width: 85%;
+        margin-left: 10%;
+        background-color: transparent;
+    }
+    .educard h1{
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .educard h2{
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .educard ul{
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 200;
+    }
+    .edu1:hover ~ .linebreak{
+        width: 85%;
+        background-color: blue;
+    }
+    .collegeimg{
+        height: 20vh;
+        width: 10vw;
+        margin-top: 3vh;
+        margin-right: 3vw;
+    }
+    .collegeimgpic{
+        height: 20vh;
+        width: 10vw;
+    }
+    .schl2img{
+        /* background-color: green; */
+        height: 20vh;
+        margin-right: 3vw;
+        /* margin-top: 4vh; */
+    }
+    .schl2imgpic{
+        height: 20vh;
+        width: 10vw;
+        object-fit: contain;
+    }
+    .skilldata{
+        display: grid;
+        width: 85%;
+        height: auto;
+        margin-left: 10%;
+        /* margin-bottom: 10vh; */
+        /* margin-top: 25vh; */
+        color: aliceblue;
+    }
+    .skilltitle{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-bottom: 8vh;
+        font-weight: bold;
+        margin-top: 8vh;
+    }
+    .skillleftright{
+        display: flex;
+        width: 90%;
+        height: auto;
+        /* background-color: green; */
+    }
+    .skillleft{
+        display: grid;
+        width: 60%;
+    }
+    .lang{
+        font-size: 1rem;
+    }
+    .langcskc{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#28A745 10%, #343a40 20%);
+        position: relative;
+    }
+    .langcskjava{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#6F33FF 50%, #343a40 20%);
+        position: relative;
+    }
+    .langcskpy{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#17A2B8 40%, #343a40 20%);
+        position: relative;
+    }
+    .langcskhtml{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#DC3545 50%, #343a40 20%);
+        position: relative;
+    }
+    .langcskcss{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#70876D 60%, #343a40 20%);
+        position: relative;
+    }
+    .langcskjs{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#28A745 40%, #343a40 20%);
+        position: relative;
+    }
+    .langcskboot{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#FFEC33 10%, #343a40 20%);
+        position: relative;
+    }
+    .langcskgit{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,aliceblue 10%, #343a40 20%);
+        position: relative;
+    }
+    .langcskex{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#17A2B8 10%, #343a40 20%);
+        position: relative;
+    }
+    .skillright{
+        display: right;
+        width: 60%;
+    }
+    .langcskreact{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#70876D 80%, #343a40 20%);
+        position: relative;
+    }
+    .langcskmongo{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#70876D 20%, #343a40 20%);
+        position: relative;
+    }
+    .langcskredux{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,aliceblue 2%, #343a40 20%);
+        position: relative;
+    }
+    .langcskhooks{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#6F33FF 2%, #343a40 20%);
+        position: relative;
+    }
+    .langcsknode{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#FFC107 70%, #343a40 20%);
+        position: relative;
+    }
+    .langcskpi{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#DC3545 40%, #343a40 20%);
+        position: relative;
+    }
+    .langcskmi{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,aliceblue 60%, #343a40 20%);
+        position: relative;
+    }
+    .langcskard{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#28A745 20%, #343a40 20%);
+        position: relative;
+    }
+    .langcskprt{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#6F33FF 20%, #343a40 20%);
+        position: relative;
+    }
+}
+
+@media only screen and (min-width:969px){
+    .aboutpage{
+        height: auto;
+        width: 100%;
+        margin-top: 5vh;
+        /* position: absolute; */
+        /* margin-bottom: 20vh; */
+        background-color: #1A1A1A;
+        /* background-color: burlywood; */
+    }
+    .navbarsmallskill{
+        display:none;
+    }
+    .navbarlargeskill{
+        position: absolute;
+        top: 0px;
+    }
+    .educardall{
+        height: auto;
+        width: auto;
+        /* margin-top: 200vh; */
+    }
+    .educationdata{
+        display: grid;
+        grid-gap: 2vh;
+    }
+    .educationtitle{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 10vh;
+        margin-left: 10vw;
+    }
+    .linebreak{
+        height: 0.25vh;
+        border-radius: 20px;
+        width: 65%;
+        margin-left: 10vw;
+        transition: width 1s;
+        background-color: gray;
+    }
+    /* .linebreak:hover{
+        width: 85%;
+        background-color: blue;
+    } */
+    .edu1{
+        display: flex;
+        height: auto;
+        width: 85%;
+        margin-left: 10%;
+        background-color: transparent;
+    }
+    .educard h1{
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .educard h2{
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .educard ul{
+        color: white;
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    .edu1:hover ~ .linebreak{
+        width: 85%;
+        background-color: blue;
+    }
+    .collegeimg{
+        height: 20vh;
+        width: 10vw;
+        margin-top: 3vh;
+        margin-right: 3vw;
+    }
+    .collegeimgpic{
+        height: 20vh;
+        width: 10vw;
+    }
+    .schl2img{
+        /* background-color: green; */
+        height: 20vh;
+        margin-right: 3vw;
+        /* margin-top: 4vh; */
+    }
+    .schl2imgpic{
+        height: 20vh;
+        width: 10vw;
+        object-fit: contain;
+    }
+    .skilldata{
+        display: grid;
+        width: 85%;
+        height: auto;
+        margin-left: 10%;
+        /* margin-bottom: 10vh; */
+        /* margin-top: 25vh; */
+        color: aliceblue;
+    }
+    .skilltitle{
+        font-size: 2rem;
+        margin-bottom: 8vh;
+        font-weight: bold;
+        margin-top: 8vh;
+        width: 80vw;
+        align-items: center;
+        text-align: center;
+    }
+    .skillleftright{
+        display: flex;
+        width: 90%;
+        height: auto;
+        /* background-color: green; */
+    }
+    .skillleft{
+        display: grid;
+        width: 60%;
+    }
+    .lang{
+        font-size: 1.3rem;
+    }
+    .langcskc{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#28A745 10%, #343a40 20%);
+        position: relative;
+    }
+    .langcskjava{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#6F33FF 50%, #343a40 20%);
+        position: relative;
+    }
+    .langcskpy{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#17A2B8 40%, #343a40 20%);
+        position: relative;
+    }
+    .langcskhtml{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#DC3545 50%, #343a40 20%);
+        position: relative;
+    }
+    .langcskcss{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#70876D 60%, #343a40 20%);
+        position: relative;
+    }
+    .langcskjs{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#28A745 40%, #343a40 20%);
+        position: relative;
+    }
+    .langcskboot{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#FFEC33 10%, #343a40 20%);
+        position: relative;
+    }
+    .langcskgit{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,aliceblue 10%, #343a40 20%);
+        position: relative;
+    }
+    .langcskex{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#17A2B8 10%, #343a40 20%);
+        position: relative;
+    }
+    .skillright{
+        display: right;
+        width: 60%;
+    }
+    .langcskreact{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#70876D 80%, #343a40 20%);
+        position: relative;
+    }
+    .langcskmongo{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#70876D 20%, #343a40 20%);
+        position: relative;
+    }
+    .langcskredux{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,aliceblue 2%, #343a40 20%);
+        position: relative;
+    }
+    .langcskhooks{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#6F33FF 2%, #343a40 20%);
+        position: relative;
+    }
+    .langcsknode{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#FFC107 70%, #343a40 20%);
+        position: relative;
+    }
+    .langcskpi{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#DC3545 40%, #343a40 20%);
+        position: relative;
+    }
+    .langcskmi{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,aliceblue 60%, #343a40 20%);
+        position: relative;
+    }
+    .langcskard{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#28A745 20%, #343a40 20%);
+        position: relative;
+    }
+    .langcskprt{
+        width: 75%;
+        height: 2vh;
+        margin: 2vh 0vh 2vh 0vh;
+        border-radius: 50px;
+        background-image: linear-gradient(to right ,#6F33FF 20%, #343a40 20%);
+        position: relative;
+    }
+}
+
+

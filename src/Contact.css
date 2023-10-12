@@ -1,0 +1,415 @@
+
+@media only screen and (max-width:599px){
+    .extracurricularpg{
+        background-image: linear-gradient(135deg,#02aab0,#00cdac);
+        -webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        padding: 15rem 0 10rem;
+        /* margin-top: -15rem; */
+        /* margin-bottom: 10vh; */
+        color: #fff;
+    }
+    .contactdifffiv{
+        display: grid;
+        grid-gap: 0px;
+    }
+    .contacttitle{
+        font-size: 1.5rem;
+        color: aliceblue;
+        width: 100%;
+        text-align: center;
+        /* margin-left: 47vw; */
+        margin-top: -15vh;
+        font-weight: bold;
+    }
+    .contacttxt{
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        /* margin-left: 30vw; */
+        margin-top: 5vh;
+        margin-bottom: 6vh;
+        font-size: 1rem;
+    }
+    .contactbtndiv{
+        min-height: 5vh;
+        width: 100%;
+        text-align: center;
+        /* margin-left: 47.5vw; */
+     } 
+    .contactbutton{
+        min-height: 5vh;
+        min-width: 8vw;
+        border: 2px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .lastdiv{
+        height: 30vh;
+        background-color: #333;
+        z-index: 999;
+    }
+    .contactmeatft{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        grid-gap: 2vh;
+        margin-top: 10vh;
+        justify-content: center;
+        /* left: 37.5vw; */
+        /* top: 8vh;
+        right: 2vw; */
+        /* background-color: aliceblue; */
+    }
+    .buttona{
+        text-decoration: none;
+        color: #fff;
+    }
+    .logo1{
+        height: 6vh;
+        width: 5vw;
+        margin: 15px;
+        /* background-color: burlywood; */
+    }
+    .gmaillogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        /* margin-left:0.5vh; */
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gmaillogo:hover{
+        transform: scale(1.2);
+    }
+    .linkedinlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .linkedinlogo:hover{
+        transform: scale(1.2);
+    }
+    .gitlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gitlogo:hover{
+        transform: scale(1.2);
+    }
+    .twitterlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .twitterlogo:hover{
+        transform: scale(1.2);
+    }
+    .lastdivitem{
+        height: 2vh;
+        width: 60vw;
+        margin-left: 20vw;
+        margin-top: 20vh;
+        border-top: 2px solid hsla(0,0%,100%,.1);
+    }
+    @font-face {
+        font-family: Agustina;
+        src: url(Agustina-Signature.otf)
+    }
+    .namelogoftr{
+        font-family: Agustina;
+        font-size: 20px;
+        /* margin-left: 41.5vw; */
+        width: 100%;
+        text-align: center;
+        /* background-color: azure; */
+        /* font-weight: bold; */
+    }
+}
+
+@media only screen and (min-width:600px){
+    .extracurricularpg{
+        background-image: linear-gradient(135deg,#02aab0,#00cdac);
+        -webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        padding: 15rem 0 10rem;
+        /* margin-top: -15rem; */
+        /* margin-bottom: 10vh; */
+        color: #fff;
+    }
+    .contactdifffiv{
+        display: grid;
+        grid-gap: 0px;
+    }
+    .contacttitle{
+        font-size: 1.6rem;
+        color: aliceblue;
+        width: 100%;
+        text-align: center;
+        /* margin-left: 47vw; */
+        margin-top: -15vh;
+        font-weight: bold;
+    }
+    .contacttxt{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 5vh;
+        margin-bottom: 6vh;
+        font-size: 1.2rem;
+    }
+    .contactbtndiv{
+        min-height: 5vh;
+        width: 100%;
+        text-align: center;
+        /* margin-left: 47.5vw; */
+     } 
+    .contactbutton{
+        min-height: 5vh;
+        min-width: 8vw;
+        border: 3px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .lastdiv{
+        height: 30vh;
+        background-color: #333;
+        z-index: 999;
+    }
+    .contactmeatft{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        grid-gap: 2vh;
+        margin-top: 10vh;
+        justify-content: center;
+        /* left: 37.5vw; */
+        /* top: 8vh;
+        right: 2vw; */
+        /* background-color: aliceblue; */
+    }
+    .buttona{
+        text-decoration: none;
+        color: #fff;
+    }
+    .logo1{
+        height: 6vh;
+        width: 5vw;
+        /* background-color: burlywood; */
+    }
+    .gmaillogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        /* margin-left:0.5vh; */
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gmaillogo:hover{
+        transform: scale(1.2);
+    }
+    .linkedinlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .linkedinlogo:hover{
+        transform: scale(1.2);
+    }
+    .gitlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gitlogo:hover{
+        transform: scale(1.2);
+    }
+    .twitterlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .twitterlogo:hover{
+        transform: scale(1.2);
+    }
+    .lastdivitem{
+        height: 2vh;
+        width: 60vw;
+        margin-left: 20vw;
+        margin-top: 20vh;
+        border-top: 2px solid hsla(0,0%,100%,.1);
+    }
+    @font-face {
+        font-family: Agustina;
+        src: url(Agustina-Signature.otf)
+    }
+    .namelogoftr{
+        font-family: Agustina;
+        font-size: 20px;
+        /* margin-left: 41.5vw; */
+        width: 100%;
+        text-align: center;
+        /* background-color: azure; */
+        /* font-weight: bold; */
+    }
+}
+
+@media only screen and (min-width:969px){
+    .extracurricularpg{
+        background-image: linear-gradient(135deg,#02aab0,#00cdac);
+        -webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        /* padding: 15rem 0 10rem; */
+        /* margin-top: -15rem; */
+        /* margin-bottom: 10vh; */
+        color: #fff;
+    }
+    .contactdifffiv{
+        display: grid;
+        grid-gap: 0px;
+    }
+    .contacttitle{
+        font-size: 2rem;
+        color: aliceblue;
+        width: 100%;
+        text-align: center;
+        /* margin-left: 47vw; */
+        margin-top: -15vh;
+        font-weight: bold;
+    }
+    .contacttxt{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 5vh;
+        margin-bottom: 6vh;
+        font-size: 1.5rem;
+    }
+    .contactbtndiv{
+        min-height: 5vh;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        /* margin-left: 47.5vw; */
+     } 
+    .contactbutton{
+        min-height: 5vh;
+        min-width: 8vw;
+        border: 5px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        text-align: center;
+        font-size: 1.2rem;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .buttona{
+        text-decoration: none;
+        color: #fff;
+    }
+    .lastdiv{
+        height: 30vh;
+        background-color: #333;
+        z-index: 999;
+    }
+    .contactmeatft{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        grid-gap: 2vh;
+        margin-top: 10vh;
+        /* left: 37.5vw; */
+        /* top: 8vh;
+        right: 2vw; */
+        /* background-color: aliceblue; */
+    }
+    .gmaillogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        /* margin-left:0.5vh; */
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gmaillogo:hover{
+        transform: scale(1.2);
+    }
+    .linkedinlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .linkedinlogo:hover{
+        transform: scale(1.2);
+    }
+    .gitlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gitlogo:hover{
+        transform: scale(1.2);
+    }
+    .twitterlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .twitterlogo:hover{
+        transform: scale(1.2);
+    }
+    .lastdivitem{
+        height: 2vh;
+        width: 60vw;
+        margin-left: 20vw;
+        margin-top: 20vh;
+        border-top: 2px solid hsla(0,0%,100%,.1);
+    }
+    @font-face {
+        font-family: Agustina;
+        src: url(Agustina-Signature.otf)
+    }
+    .namelogoftr{
+        font-family: Agustina;
+        font-size: 20px;
+        /* margin-left: 41.5vw; */
+        width: 100%;
+        text-align: center;
+        /* background-color: azure; */
+        /* font-weight: bold; */
+    }
+}
+
+

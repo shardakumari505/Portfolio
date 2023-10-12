@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Poppins:wght@600;700&family=Roboto&display=swap');
+.Navbar{
+    background-color: #202020;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Navbar nav ul li{
+    display: inline-block;
+    margin: 1.5vw;
+}
+
+.Navbar nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.Navbar a:hover{
+    color:  #E1AD01;
+}
+
+.Navbar .NavbarMobile{
+    display: none;
+}
+
+@media(max-width:968px){
+    .Navbar .Navigation{
+        display: none;
+    }
+
+    .Navbar .NavbarMobile{
+        display:flex;
+        align-items: center;
+    }
+    .Navbar .NavbarMobile .Hamburger{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+    .Navbar nav ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0px;
+        top: 50px;
+        text-align: center;
+        background-color: #202020;
+        width: 100%;
+    }
+    .Navbar{
+        opacity: 0.9;
+    }
+}

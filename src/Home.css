@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300;1,400;1,500&display=swap');
+body{
+    background-color: #1A1A1A;
+}
+
+@media only screen and (max-width:480px){
+    .homepage{
+        width: 100%;
+        height: 180vh;
+        background-color: #1A1A1A;
+        /* background-color: aquamarine; */
+    }
+    .navbarlarge{
+        display: none;
+    }
+    .profiletop{
+        height: 80vh;
+    }
+    .profilepic{
+        width: 100%;
+        height: 30vw;
+        /* border-radius: 20vh; */
+        /* background-color: #3B1988; */
+        position: absolute;
+        top: 15vh;
+        left: 0%;
+        /* background-image: url("bg.jpg"); */
+    }
+    
+    .profilepicimg{
+        position: absolute;
+        left: 30vw;
+        height: 40vw;
+        width: 40vw;
+        border-radius: 20vw;
+        object-fit: contain;
+        box-shadow: 10px 10px 10px 10px #3E3B39;
+        
+    }
+    .profileright{
+        position: absolute;
+        top: 40vh;
+        width: 100vw;
+        text-align: center;
+        /* right: 5vw; */
+    }
+    .profileright h1{
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+    .profileright h2{
+        color: #999999;
+        font-size: 1.1rem;
+    }
+    .profileright h3{
+        color: #32CD32;
+        font-size: 1rem;
+    }
+    .hirebutton{
+        /* background-image: linear-gradient(to right,#ED1C23 0%,#ED1C23 74%); */
+        min-height: 5vh;
+        background-color: #3B1988;
+        outline: none;
+        border: none;
+        min-width: 90px;
+        border-radius: 50px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: aliceblue;
+    }
+    .aboutmesection{
+        /* background-image: linear-gradient(135deg,#333,#333);
+        -webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        padding: 15rem 0 10rem;
+        margin-top: -15rem;
+        height: 90vh;
+        width: 100%;
+        background-color: #333; */
+        background-color: #333;
+        background-image: linear-gradient(135deg,#333,#333);
+        color: #fff;
+        height: 50%;
+        border-top: 0;
+        -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+        clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+        /* padding-bottom: 10%; */
+        /* font-family: Cormorant;
+        font-weight: 400; */
+        /* font-size: 8rem; */
+    }
+    @font-face {
+        font-family: Better Grade;
+        src: url(BetterGrade-519DV.ttf)
+    }
+    .aboutmetitle{
+        width: 100vw;
+        /* background-color: #940eb5; */
+        font-size: 1.5rem;
+        color: #E1AD01;
+        position: absolute;
+        margin-top: 8vh;
+        font-weight: bold;
+        text-align: center;
+        /* text-decoration: underline 2px; */
+        /* margin-left: 45vw; */
+    }
+    .aboutmetext{
+        color: #FFFFFF;
+        font-family: Cormorant;
+        font-size: 1rem;
+        position: absolute;
+        width: 80vw;
+        left: 10vw;
+        margin-top: 20vh;
+        text-align: justify;
+    }
+    .contactmeattext{
+        height: 20vh;
+        width: 60vw;
+        position: absolute;
+        color: aliceblue;
+        left: 10vw;
+    }
+    .contactmeat{
+        position: fixed;
+        display: grid;
+        display: none;
+        grid-gap: 2vh;
+        bottom: 8vh;
+        right: 2vw;
+        /* background-color: aliceblue; */
+    }
+    .buttonah{
+        text-decoration: none;
+        color: #fff;
+    }
+    .gmaillogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        /* background-color: gray; */
+        margin-left:0.5vh;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gmaillogo:hover{
+        transform: scale(1.2);
+    }
+    .linkedinlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .linkedinlogo:hover{
+        transform: scale(1.2);
+    }
+    .gitlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gitlogo:hover{
+        transform: scale(1.2);
+    }
+    .twitterlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .twitterlogo:hover{
+        transform: scale(1.2);
+    }
+    .footer{
+        display: none;
+        position: fixed;
+        z-index: 999;
+        bottom: 0px;
+        height: 6vh;
+        width: 100%;
+        background-color: #131313;
+    }
+    .ftimg{
+        background-color: transparent;
+        height: 3vh;
+        width: 1.5vw;
+        position: absolute;
+        top: 1.5vh;
+        left: 49.5vw;
+    }
+}
+
+@media (min-width:481px) and (max-width:968px){
+    .homepage{
+        width: 100%;
+        height: 210vh;
+        background-color: #1A1A1A;
+        /* background-color: aquamarine; */
+    }
+    .navbarlarge{
+        display:none;
+    }
+    .profiletop{
+        height: 100vh;
+        width: 100%;
+    }
+    .profilepic{
+        /* width: 100%; */
+        height: 40vh;
+        position: absolute;
+        top: 20vh;
+        left: 35vw;
+        /* background-color: #E1AD01; */
+    }
+    
+    .profilepicimg{
+        height: 40vh;
+        width: 40vh;
+        border-radius: 20vh;
+        object-fit: contain;
+        box-shadow: 10px 10px 10px 10px #3E3B39;
+        
+    }
+    .profileright{
+        position: absolute;
+        top: 65vh;
+        width: 100vw;
+        text-align: center;
+        /* right: 5vw; */
+    }
+    .profileright h1{
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+    .profileright h2{
+        color: #999999;
+        font-size: 1.1rem;
+    }
+    .profileright h3{
+        color: #32CD32;
+        font-size: 1rem;
+    }
+    .hirebutton{
+        /* background-image: linear-gradient(to right,#ED1C23 0%,#ED1C23 74%); */
+        min-height: 5vh;
+        background-color: #3B1988;
+        outline: none;
+        border: none;
+        min-width: 10vw;
+        border-radius: 50px;
+        font-size: 1rem;
+        font-weight: 700;
+        color: aliceblue;
+    }
+    .aboutmesection{
+        /* background-image: linear-gradient(135deg,#333,#333);
+        -webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        padding: 15rem 0 10rem;
+        margin-top: -15rem;
+        height: 90vh;
+        width: 100%;
+        background-color: #333; */
+        background-color: #333;
+        background-image: linear-gradient(135deg,#333,#333);
+        color: #fff;
+        height: 50%;
+        border-top: 0;
+        -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+        clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+        /* padding-bottom: 10%; */
+        /* font-family: Cormorant;
+        font-weight: 400; */
+        /* font-size: 8rem; */
+    }
+    @font-face {
+        font-family: Better Grade;
+        src: url(BetterGrade-519DV.ttf)
+    }
+    .aboutmetitle{
+        width: 100vw;
+        /* background-color: #940eb5; */
+        font-size: 2rem;
+        color: #E1AD01;
+        position: absolute;
+        margin-top: 8vh;
+        font-weight: bold;
+        text-align: center;
+        /* text-decoration: underline 2px; */
+        /* margin-left: 45vw; */
+    }
+    .aboutmetext{
+        color: #FFFFFF;
+        font-family: Cormorant;
+        font-size: 1.3rem;
+        position: absolute;
+        width: 80vw;
+        left: 10vw;
+        margin-top: 20vh;
+        text-align: justify;
+    }
+    .contactmeattext{
+        height: 20vh;
+        width: 60vw;
+        position: absolute;
+        color: aliceblue;
+        left: 10vw;
+    }
+    .contactmeat{
+        position: fixed;
+        display: grid;
+        display: none;
+        grid-gap: 2vh;
+        bottom: 8vh;
+        right: 2vw;
+        /* background-color: aliceblue; */
+    }
+    .buttonah{
+        text-decoration: none;
+        color: #fff;
+    }
+    .gmaillogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        /* background-color: gray; */
+        margin-left:0.5vh;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gmaillogo:hover{
+        transform: scale(1.2);
+    }
+    .linkedinlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .linkedinlogo:hover{
+        transform: scale(1.2);
+    }
+    .gitlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gitlogo:hover{
+        transform: scale(1.2);
+    }
+    .twitterlogo{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .twitterlogo:hover{
+        transform: scale(1.2);
+    }
+    .footer{
+        display: none;
+        position: fixed;
+        z-index: 999;
+        bottom: 0px;
+        height: 6vh;
+        width: 100%;
+        background-color: #131313;
+    }
+    .ftimg{
+        background-color: transparent;
+        height: 3vh;
+        width: 1.5vw;
+        position: absolute;
+        top: 1.5vh;
+        left: 49.5vw;
+    }
+}
+
+
+@media (min-width:969px){
+    .homepage{
+        width: 100%;
+        height: 210vh;
+        background-color: #1A1A1A;
+        /* background-color: aquamarine; */
+    }
+    .navbarsmall{
+        display:none;
+    }
+    .navbarlarge{
+        position: absolute;
+        top: 0px;
+    }
+    .profiletop{
+        height: 100vh;
+        /* width: 100%; */
+    }
+    .profilepic{
+        width: 30%;
+        height: 60vh;
+        border-radius: 30vh;
+        /* background-color: bisque; */
+        position: absolute;
+        top: 25vh;
+        left: 10%;
+        /* background-image: url("bg.jpg"); */
+    }
+    
+    .profilepicimg{
+        height: 60vh;
+        width: 60vh;
+        border-radius: 30vh;
+        object-fit: contain;
+        box-shadow: 10px 10px 10px 10px #3E3B39;
+        
+    }
+    .profileright{
+        position: absolute;
+        top: 40vh;
+        width: 40%;
+        right: 5%;
+        /* background-color: #FFFFFF; */
+    }
+    .profileright h1{
+        color: aliceblue;
+        font-size: 2rem;
+        font-style: oblique;
+        font-weight: 200;
+    }
+    .profileright h2{
+        color: #999999;
+        font-size: 1.6rem;
+    }
+    .profileright h3{
+        color: #32CD32;
+        font-size: 1.5rem;
+    }
+    .hirebutton{
+        /* background-image: linear-gradient(to right,#ED1C23 0%,#ED1C23 74%); */
+        min-height: 5vh;
+        background-color: #3B1988;
+        outline: none;
+        border: none;
+        min-width: 8vw;
+        border-radius: 50px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: aliceblue;
+        cursor: alias;
+    }
+    .buttonah{
+        text-decoration: none;
+        color: #fff;
+    }
+    .aboutmesection{
+        /* background-image: linear-gradient(135deg,#333,#333);
+        -webkit-clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+        padding: 15rem 0 10rem;
+        margin-top: -15rem;
+        height: 90vh;
+        width: 100%;
+        background-color: #333; */
+        background-color: #333;
+        background-image: linear-gradient(135deg,#333,#333);
+        color: #fff;
+        height: 50%;
+        border-top: 0;
+        -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+        clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+        /* padding-bottom: 10%; */
+        /* font-family: Cormorant;
+        font-weight: 400; */
+        /* font-size: 8rem; */
+    }
+    @font-face {
+        font-family: Better Grade;
+        src: url(BetterGrade-519DV.ttf)
+    }
+    .aboutmetitle{
+        width: 100%;
+        /* background-color: #940eb5; */
+        font-size: 2.5rem;
+        color: #E1AD01;
+        position: absolute;
+        margin-top: 8vh;
+        font-weight: bold;
+        text-align: center;
+        /* text-decoration: underline 2px; */
+        /* margin-left: 45vw; */
+    }
+    .aboutmetext{
+        color: #FFFFFF;
+        font-family: Cormorant;
+        font-size: 1.7rem;
+        position: absolute;
+        width: 80%;
+        left: 10vw;
+        margin-top: 20vh;
+        text-align: justify;
+    }
+    .contactmeattext{
+        display: none;
+        height: 20vh;
+        width: 60vw;
+        position: absolute;
+        color: aliceblue;
+        left: 10vw;
+    }
+    .contactmeat{
+        position: fixed;
+        display: grid;
+        grid-gap: 2vh;
+        bottom: 8vh;
+        right: 1vw;
+        /* background-color: aliceblue; */
+    }
+    
+    .gmaillogo1{
+        height: 5vh;
+        width: 5vh;
+        border-radius: 2.5vh;
+        /* background-color: gray; */
+        margin-left:0.5vh;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gmaillogo:hover{
+        transform: scale(1.2);
+    }
+    .linkedinlogo1{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .linkedinlogo:hover{
+        transform: scale(1.2);
+    }
+    .gitlogo1{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .gitlogo:hover{
+        transform: scale(1.2);
+    }
+    .twitterlogo1{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 3vh;
+        background-color: transparent;
+        transition: all 0.5s;
+        box-shadow: 3px 3px 3px 3px#101010;
+    }
+    .twitterlogo:hover{
+        transform: scale(1.2);
+    }
+    .footer{
+        display: none;
+        position: fixed;
+        z-index: 999;
+        bottom: 0px;
+        height: 6vh;
+        width: 100%;
+        background-color: #131313;
+    }
+    .ftimg{
+        background-color: transparent;
+        height: 3vh;
+        width: 1.5vw;
+        position: absolute;
+        top: 1.5vh;
+        left: 49.5vw;
+    }
+}
