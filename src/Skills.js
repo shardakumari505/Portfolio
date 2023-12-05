@@ -28,7 +28,7 @@ export default function Skills(){
                         <h2 className='cllgcourse'>Bachelor of Technology in Electronics and Communication Engineering</h2>
                         <h2 className='cllgdate'>DECEMBER 2020 - MAY 2024 (Expected)</h2>
                         <ul>
-                            <li>Scored 8.98 CGPA at the end of 6th sem</li>
+                            <li>Scored 9.04 CGPA at the end of 7th sem</li>
                             {/* <li>Scored 9.00 CGPA at the end of 5th sem</li>
                             <li>Scored 9.30 CGPA at the end of 4th sem</li>
                             <li>Scored 9.50 CGPA in 3rd sem</li>
@@ -47,7 +47,7 @@ export default function Skills(){
                         <h2 className='cllgcourse'>XII</h2>
                         <h2 className='cllgdate'>JUNE 2016 - MARCH 2018</h2>
                         <ul>
-                            <li>Scored 81.2% in 12th Board</li>
+                            <li>Scored 81.8% in 12th Board</li>
                             <li>Physics , Chemistry , Biology and Mathematics as the main subject</li>
                             <li>CBSE Boards</li>
                         </ul>

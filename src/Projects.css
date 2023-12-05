@@ -479,7 +479,7 @@
     }
     .crd3b{
         min-height: 70vh;
-        width: 24vw;
+        width: 22vw;
         display: grid;
         grid-gap: 2vh;
         background-color: gray;

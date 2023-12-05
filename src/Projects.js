@@ -68,13 +68,14 @@ export default function Projects() {
             </div>
             <div className='projectscards2'>
                 
-                <div className='crd2b'>
+                <div className='crd3b'>
                     <div className='caseira'><img className='caseiraimg' src={Heart} alt="caseira" /></div>
                     <div className='tool'>Python , Logistic Regression</div>
                     <div className='nameproject1'>Heart Attack Prediction</div>
                     <div className='project1txt'>To ease the prediction of Heart Attacks in a patient , prepared a machine learning model using Logistic Regression technique which takes certain inputs of data and give the output whether there is any possibility of heart attack or not.</div>
                     <a href="https://github.com/shardakumari505/Heart-Attack-Prediction"><div className='icondiv'><img className='icon' src={Linkicon} alt="link" /></div></a>
                 </div>
+                
             </div>
         </div>
 

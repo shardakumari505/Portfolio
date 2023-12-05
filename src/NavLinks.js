@@ -33,7 +33,7 @@ const NavLinks = (props) => {
             animate={animateTo}
             transition={{delay:0.20}}
             onClick={() => props.isMobile && props.closeMobileMenu()} >
-                <a href="https://drive.google.com/file/d/14VzNcO8SQEpADcUh5RsaIiMyqZFFh0sg/view?usp=sharing">Resume</a>
+                <a href="https://drive.google.com/file/d/1r3oblXf9MS4cwghPoUXs_XzgCFxoaK-U/view?usp=sharing">Resume</a>
             </motion.li>
         </ul>
     )
